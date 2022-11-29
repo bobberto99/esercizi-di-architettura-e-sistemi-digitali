@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: errore caso 2
+Time: 140 ns  Iteration: 0  Process: /Encoder_BCD_tb/stim_proc  File: D:/Xilinx/Progetti_Xilinx/2_Encoder_BCD/2_Encoder_BCD.srcs/sim_1/new/Encoder_BDC_tb.vhd
+$finish called at time : 140 ns : File "D:/Xilinx/Progetti_Xilinx/2_Encoder_BCD/2_Encoder_BCD.srcs/sim_1/new/Encoder_BDC_tb.vhd" Line 77

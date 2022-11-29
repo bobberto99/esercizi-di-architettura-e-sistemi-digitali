@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Nov 12 18:11:36 2022
+# Process ID: 6424
+# Current directory: E:/progetti/2_Encoder_BCD/2_Encoder_BCD/2_Encoder_BCD.runs/synth_1
+# Command line: vivado.exe -log encoder_con_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source encoder_con_display.tcl
+# Log file: E:/progetti/2_Encoder_BCD/2_Encoder_BCD/2_Encoder_BCD.runs/synth_1/encoder_con_display.vds
+# Journal file: E:/progetti/2_Encoder_BCD/2_Encoder_BCD/2_Encoder_BCD.runs/synth_1\vivado.jou
+# Running On: DESKTOP-IR34L4A, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 12, Host memory: 17101 MB
+#-----------------------------------------------------------
+source encoder_con_display.tcl -notrace
