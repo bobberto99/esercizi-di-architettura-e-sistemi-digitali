@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 28 10:11:19 2022
+# Process ID: 15216
+# Current directory: D:/progetti/esercizio_5/5_Cronometro/5_Cronometro.runs/synth_1
+# Command line: vivado.exe -log Cronometro.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Cronometro.tcl
+# Log file: D:/progetti/esercizio_5/5_Cronometro/5_Cronometro.runs/synth_1/Cronometro.vds
+# Journal file: D:/progetti/esercizio_5/5_Cronometro/5_Cronometro.runs/synth_1\vivado.jou
+# Running On: DESKTOP-KMOCJAH, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 8442 MB
+#-----------------------------------------------------------
+source Cronometro.tcl -notrace
