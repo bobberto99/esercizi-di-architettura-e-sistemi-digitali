@@ -53,12 +53,13 @@ selettore : process (clk)
 begin
 
 case sel is 
-    when "000" => cifra <= unita_secondi;
-    when "001" => cifra <= '0' & decine_secondi;
-    when "010" => cifra <= unita_minuti;
-    when "011" => cifra <= '0' & decine_minuti;
-    when "100" => cifra <= unita_ore;
-    when "101" => cifra <= "00" & decine_ore;
+    when "000"  => cifra <= unita_secondi;
+    when "001"  => cifra <= '0' & decine_secondi;
+    when "010"  => cifra <= unita_minuti;
+    when "011"  => cifra <= '0' & decine_minuti;
+    when "100"  => cifra <= unita_ore;
+    when "101"  => cifra <= "00" & decine_ore;
+    when others => cifra <= "0000";
 end case;
 
 end process;

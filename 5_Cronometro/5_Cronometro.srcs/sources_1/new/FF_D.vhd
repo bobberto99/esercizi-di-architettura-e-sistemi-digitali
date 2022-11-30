@@ -55,13 +55,12 @@ if (rising_edge(clk)) then
     if (reset = '1') then
         u <= '0';
     end if;
-    if (en = '1') then
-        if (preset = '1') then
-            u <= '1';
-        else
+    if (preset = '1') then
+    u <= '1';
+    end if;
+    if (en = '1' and preset = '0') then
             u <= input;
         end if;
-    end if;
 end if;
 
 end process;

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1669626674" LaunchIncrCheckpoint="$PPRDIR/../../../Xilinx/Progetti_Xilinx/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/Cronometro.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1669626674" LaunchIncrCheckpoint="D:/Xilinx/Progetti_Xilinx/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/Cronometro.dcp">
   <File Type="PA-TCL" Name="Cronometro.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Cronometro_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Cronometro_reports.tcl"/>
   <File Type="RDS-RDS" Name="Cronometro.vds"/>
   <File Type="RDS-UTIL" Name="Cronometro_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Cronometro_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Cronometro.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Cronometro_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Cronometro_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Counter_mod24_struct.vhd">
@@ -67,7 +64,7 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="$PPRDIR/../../../Xilinx/Progetti_Xilinx/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/Cronometro.dcp">
+    <File Path="D:/Xilinx/Progetti_Xilinx/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/Cronometro.dcp">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

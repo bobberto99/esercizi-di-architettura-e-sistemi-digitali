@@ -56,17 +56,15 @@ begin
 if (rising_edge(clk)) then
     if (reset = '1') then
         conteggio <= (others => '0');
-    elsif (en = '1') then
-        if (set='1') then
-            conteggio <= v_set;
-        else 
+    elsif (set='1') then
+        conteggio <= v_set;
+    elsif (en = '1') then 
             conteggio <= std_logic_vector(unsigned(conteggio) + 1);
             if (conteggio = "11111111") then
                 count <= '1';
             end if;
         end if;
     end if;
-end if;
     
 end process;
 
