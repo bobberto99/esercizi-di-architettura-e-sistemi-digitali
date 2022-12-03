@@ -1,13 +1,20 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../5_Cronometro.srcs/sources_1/new/Counter_mod24_struct.vhd" \
-"../../../../5_Cronometro.srcs/sources_1/new/Counter_mod32_struct.vhd" \
-"../../../../5_Cronometro.srcs/sources_1/new/Counter_mod60.vhd" \
-"../../../../5_Cronometro.srcs/sources_1/new/Counter_mod64.vhd" \
-"../../../../5_Cronometro.srcs/sources_1/new/Cronometro.vhd" \
-"../../../../5_Cronometro.srcs/sources_1/new/Divisore_freq.vhd" \
-"../../../../5_Cronometro.srcs/sources_1/new/FF_D.vhd" \
-"../../../../5_Cronometro.srcs/sim_1/new/Cronometro_tb.vhd" \
+"../../../../../file vhdl/Counter_mod24_struct.vhd" \
+"../../../../../file vhdl/Counter_mod32_struct.vhd" \
+"../../../../../file vhdl/Counter_mod60.vhd" \
+"../../../../../file vhdl/Counter_mod64.vhd" \
+"../../../../../file vhdl/Cronometro.vhd" \
+"../../../../../file vhdl/Divisore_freq.vhd" \
+"../../../../../file vhdl/FF_D.vhd" \
+"../../../../../file vhdl/contatore_modulo_8_display.vhd" \
+"../../../../5_Cronometro.srcs/sources_1/new/cronometro_con_display.vhd" \
+"../../../../../file vhdl/display.vhd" \
+"../../../../../file vhdl/gestore_anodi.vhd" \
+"../../../../../file vhdl/gestore_catodi.vhd" \
+"../../../../../file vhdl/selettore_display.vhd" \
+"../../../../../file vhdl/splitter.vhd" \
+"../../../../../GitHub/esercizi-di-architettura-e-sistemi-digitali/5_Cronometro/5_Cronometro.srcs/sim_1/new/Cronometro_tb.vhd" \
 
 # Do not sort compile order
 nosort

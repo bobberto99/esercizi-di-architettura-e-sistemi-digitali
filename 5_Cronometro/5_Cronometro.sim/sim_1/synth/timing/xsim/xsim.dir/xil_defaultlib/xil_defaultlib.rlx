@@ -1,0 +1,6 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v,1669887229,verilog,,,,Counter_mod24_struct;Counter_mod32_struct;Cronometro;Divisore_freq;Divisore_freq__parameterized1;Divisore_freq__parameterized3;FF_D;FF_D_10;FF_D_11;FF_D_12;FF_D_13;FF_D_14;FF_D_15;FF_D_16;FF_D_17;FF_D_18;FF_D_3;FF_D_4;FF_D_5;FF_D_6;FF_D_7;FF_D_8;FF_D_9;cont_mod_64_struct;cont_mod_64_struct_2;contatore_modulo_8_display;cronometro_con_display;display;glbl;splitter;splitter_0;splitter_1,,,,,,,,
+C:/Users/bobbo/Documents/GitHub/esercizi-di-architettura-e-sistemi-digitali/5_Cronometro/5_Cronometro.srcs/sim_1/new/Cronometro_tb.vhd,1669850100,vhdl,,,,cronometro_tb,,,,,,,,

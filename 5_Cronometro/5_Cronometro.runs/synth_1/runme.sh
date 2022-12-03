@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/xilinx/Vivado/2022.1/ids_lite/ISE/bin/nt64;D:/xilinx/Vivado/2022.1/ids_lite/ISE/lib/nt64:D:/xilinx/Vivado/2022.1/bin
+  PATH=C:/Xilinx/Vivado/2022.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2022.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2022.1/bin
 else
-  PATH=D:/xilinx/Vivado/2022.1/ids_lite/ISE/bin/nt64;D:/xilinx/Vivado/2022.1/ids_lite/ISE/lib/nt64:D:/xilinx/Vivado/2022.1/bin:$PATH
+  PATH=C:/Xilinx/Vivado/2022.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2022.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2022.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/progetti/esercizio_5/5_Cronometro/5_Cronometro.runs/synth_1'
+HD_PWD='C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Cronometro.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Cronometro.tcl
+EAStep vivado -log cronometro_con_display.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cronometro_con_display.tcl

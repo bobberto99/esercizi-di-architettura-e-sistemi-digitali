@@ -1,50 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1669626674" LaunchIncrCheckpoint="D:/Xilinx/Progetti_Xilinx/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/Cronometro.dcp">
-  <File Type="PA-TCL" Name="Cronometro.tcl"/>
-  <File Type="REPORTS-TCL" Name="Cronometro_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Cronometro.vds"/>
-  <File Type="RDS-UTIL" Name="Cronometro_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Cronometro_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Cronometro.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1670081461" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/cronometro_con_display.dcp">
+  <File Type="PA-TCL" Name="cronometro_con_display.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="cronometro_con_display_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="cronometro_con_display_reports.tcl"/>
+  <File Type="RDS-RDS" Name="cronometro_con_display.vds"/>
+  <File Type="RDS-UTIL" Name="cronometro_con_display_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="cronometro_con_display_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="cronometro_con_display.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="cronometro_con_display_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="cronometro_con_display_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/Counter_mod24_struct.vhd">
+    <File Path="$PPRDIR/../file vhdl/Counter_mod24_struct.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Counter_mod32_struct.vhd">
+    <File Path="$PPRDIR/../file vhdl/Counter_mod32_struct.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Counter_mod60.vhd">
+    <File Path="$PPRDIR/../file vhdl/Counter_mod60.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Counter_mod64.vhd">
+    <File Path="$PPRDIR/../file vhdl/Counter_mod64.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Divisore_freq.vhd">
+    <File Path="$PPRDIR/../file vhdl/Cronometro.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/FF_D.vhd">
+    <File Path="$PPRDIR/../file vhdl/Divisore_freq.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Cronometro.vhd">
+    <File Path="$PPRDIR/../file vhdl/FF_D.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../file vhdl/contatore_modulo_8_display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../file vhdl/display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../file vhdl/gestore_anodi.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../file vhdl/gestore_catodi.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../file vhdl/selettore_display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../file vhdl/splitter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cronometro_con_display.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -52,19 +97,25 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Cronometro"/>
+      <Option Name="TopModule" Val="cronometro_con_display"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Desktop/Nexys-A7-50T-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="D:/Xilinx/Progetti_Xilinx/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/Cronometro.dcp">
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/cronometro_con_display.dcp">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

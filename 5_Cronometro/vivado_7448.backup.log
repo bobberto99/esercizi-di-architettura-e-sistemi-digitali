@@ -1,0 +1,1193 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Dec  1 10:28:53 2022
+# Process ID: 7448
+# Current directory: C:/Users/bobbo/Documents/5_Cronometro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent332 C:\Users\bobbo\Documents\5_Cronometro\5_Cronometro.xpr
+# Log file: C:/Users/bobbo/Documents/5_Cronometro/vivado.log
+# Journal file: C:/Users/bobbo/Documents/5_Cronometro\vivado.jou
+# Running On: DESKTOP-IR34L4A, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 12, Host memory: 17101 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cmod-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/cmod-s7-25/B.0/board.xml as part xc7s25csga225-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 1616.477 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/cronometro_con_display.dcp with file C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1/cronometro_con_display.dcp
+launch_runs synth_1 -jobs 12
+[Thu Dec  1 10:29:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Dec  1 10:31:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1/runme.log
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation  -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-20] The target language is set to VHDL, it is not supported for simulation type 'timing', using Verilog instead.
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a50ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1616.477 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/bobbo/Desktop/Nexys-A7-50T-Master.xdc]
+Finished Parsing XDC File [C:/Users/bobbo/Desktop/Nexys-A7-50T-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1616.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1724.938 ; gain = 108.461
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v
+INFO: [SIM-utils-37] SDF generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'Cronometro_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj Cronometro_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_mod24_struct
+INFO: [VRFC 10-311] analyzing module Counter_mod32_struct
+INFO: [VRFC 10-311] analyzing module Cronometro
+INFO: [VRFC 10-311] analyzing module Divisore_freq
+INFO: [VRFC 10-311] analyzing module Divisore_freq__parameterized1
+INFO: [VRFC 10-311] analyzing module Divisore_freq__parameterized3
+INFO: [VRFC 10-311] analyzing module FF_D
+INFO: [VRFC 10-311] analyzing module FF_D_10
+INFO: [VRFC 10-311] analyzing module FF_D_11
+INFO: [VRFC 10-311] analyzing module FF_D_12
+INFO: [VRFC 10-311] analyzing module FF_D_13
+INFO: [VRFC 10-311] analyzing module FF_D_14
+INFO: [VRFC 10-311] analyzing module FF_D_15
+INFO: [VRFC 10-311] analyzing module FF_D_16
+INFO: [VRFC 10-311] analyzing module FF_D_17
+INFO: [VRFC 10-311] analyzing module FF_D_18
+INFO: [VRFC 10-311] analyzing module FF_D_3
+INFO: [VRFC 10-311] analyzing module FF_D_4
+INFO: [VRFC 10-311] analyzing module FF_D_5
+INFO: [VRFC 10-311] analyzing module FF_D_6
+INFO: [VRFC 10-311] analyzing module FF_D_7
+INFO: [VRFC 10-311] analyzing module FF_D_8
+INFO: [VRFC 10-311] analyzing module FF_D_9
+INFO: [VRFC 10-311] analyzing module cont_mod_64_struct
+INFO: [VRFC 10-311] analyzing module cont_mod_64_struct_2
+INFO: [VRFC 10-311] analyzing module contatore_modulo_8_display
+INFO: [VRFC 10-311] analyzing module cronometro_con_display
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-311] analyzing module splitter
+INFO: [VRFC 10-311] analyzing module splitter_0
+INFO: [VRFC 10-311] analyzing module splitter_1
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Cronometro_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Cronometro_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Cronometro_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Cronometro_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "Cronometro_tb_time_synth.sdf", for root module "Cronometro_tb/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "Cronometro_tb_time_synth.sdf", for root module "Cronometro_tb/uut".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.FDRE_default
+Compiling module xil_defaultlib.FF_D_13
+Compiling module xil_defaultlib.FF_D_14
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.FF_D_15
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.FF_D_16
+Compiling module xil_defaultlib.FF_D_17
+Compiling module xil_defaultlib.FF_D_18
+Compiling module xil_defaultlib.cont_mod_64_struct
+Compiling module xil_defaultlib.FF_D_8
+Compiling module xil_defaultlib.FF_D_9
+Compiling module xil_defaultlib.FF_D_10
+Compiling module xil_defaultlib.FF_D_11
+Compiling module xil_defaultlib.FF_D_12
+Compiling module xil_defaultlib.Counter_mod32_struct
+Compiling module xil_defaultlib.Counter_mod24_struct
+Compiling module xil_defaultlib.FF_D
+Compiling module xil_defaultlib.FF_D_3
+Compiling module xil_defaultlib.FF_D_4
+Compiling module xil_defaultlib.FF_D_5
+Compiling module xil_defaultlib.FF_D_6
+Compiling module xil_defaultlib.FF_D_7
+Compiling module xil_defaultlib.cont_mod_64_struct_2
+Compiling module xil_defaultlib.Divisore_freq
+Compiling module xil_defaultlib.Cronometro
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module xil_defaultlib.contatore_modulo_8_display
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module xil_defaultlib.Divisore_freq__parameterized1
+Compiling module xil_defaultlib.Divisore_freq__parameterized3
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module xil_defaultlib.splitter
+Compiling module xil_defaultlib.splitter_0
+Compiling module xil_defaultlib.splitter_1
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.cronometro_con_display
+Compiling architecture behavioral of entity xil_defaultlib.cronometro_tb
+Built simulation snapshot Cronometro_tb_time_synth
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2147.984 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Cronometro_tb_time_synth -key {Post-Synthesis:sim_1:Timing:Cronometro_tb} -tclbatch {Cronometro_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Cronometro_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Cronometro_tb_time_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 2196.668 ; gain = 580.191
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-20] The target language is set to VHDL, it is not supported for simulation type 'timing', using Verilog instead.
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v
+INFO: [SIM-utils-37] SDF generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'Cronometro_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj Cronometro_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/Cronometro_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_mod24_struct
+INFO: [VRFC 10-311] analyzing module Counter_mod32_struct
+INFO: [VRFC 10-311] analyzing module Cronometro
+INFO: [VRFC 10-311] analyzing module Divisore_freq
+INFO: [VRFC 10-311] analyzing module Divisore_freq__parameterized1
+INFO: [VRFC 10-311] analyzing module Divisore_freq__parameterized3
+INFO: [VRFC 10-311] analyzing module FF_D
+INFO: [VRFC 10-311] analyzing module FF_D_10
+INFO: [VRFC 10-311] analyzing module FF_D_11
+INFO: [VRFC 10-311] analyzing module FF_D_12
+INFO: [VRFC 10-311] analyzing module FF_D_13
+INFO: [VRFC 10-311] analyzing module FF_D_14
+INFO: [VRFC 10-311] analyzing module FF_D_15
+INFO: [VRFC 10-311] analyzing module FF_D_16
+INFO: [VRFC 10-311] analyzing module FF_D_17
+INFO: [VRFC 10-311] analyzing module FF_D_18
+INFO: [VRFC 10-311] analyzing module FF_D_3
+INFO: [VRFC 10-311] analyzing module FF_D_4
+INFO: [VRFC 10-311] analyzing module FF_D_5
+INFO: [VRFC 10-311] analyzing module FF_D_6
+INFO: [VRFC 10-311] analyzing module FF_D_7
+INFO: [VRFC 10-311] analyzing module FF_D_8
+INFO: [VRFC 10-311] analyzing module FF_D_9
+INFO: [VRFC 10-311] analyzing module cont_mod_64_struct
+INFO: [VRFC 10-311] analyzing module cont_mod_64_struct_2
+INFO: [VRFC 10-311] analyzing module contatore_modulo_8_display
+INFO: [VRFC 10-311] analyzing module cronometro_con_display
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-311] analyzing module splitter
+INFO: [VRFC 10-311] analyzing module splitter_0
+INFO: [VRFC 10-311] analyzing module splitter_1
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Cronometro_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Cronometro_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Cronometro_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Cronometro_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "Cronometro_tb_time_synth.sdf", for root module "Cronometro_tb/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "Cronometro_tb_time_synth.sdf", for root module "Cronometro_tb/uut".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.FDRE_default
+Compiling module xil_defaultlib.FF_D_13
+Compiling module xil_defaultlib.FF_D_14
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.FF_D_15
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.FF_D_16
+Compiling module xil_defaultlib.FF_D_17
+Compiling module xil_defaultlib.FF_D_18
+Compiling module xil_defaultlib.cont_mod_64_struct
+Compiling module xil_defaultlib.FF_D_8
+Compiling module xil_defaultlib.FF_D_9
+Compiling module xil_defaultlib.FF_D_10
+Compiling module xil_defaultlib.FF_D_11
+Compiling module xil_defaultlib.FF_D_12
+Compiling module xil_defaultlib.Counter_mod32_struct
+Compiling module xil_defaultlib.Counter_mod24_struct
+Compiling module xil_defaultlib.FF_D
+Compiling module xil_defaultlib.FF_D_3
+Compiling module xil_defaultlib.FF_D_4
+Compiling module xil_defaultlib.FF_D_5
+Compiling module xil_defaultlib.FF_D_6
+Compiling module xil_defaultlib.FF_D_7
+Compiling module xil_defaultlib.cont_mod_64_struct_2
+Compiling module xil_defaultlib.Divisore_freq
+Compiling module xil_defaultlib.Cronometro
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module xil_defaultlib.contatore_modulo_8_display
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module xil_defaultlib.Divisore_freq__parameterized1
+Compiling module xil_defaultlib.Divisore_freq__parameterized3
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module xil_defaultlib.splitter
+Compiling module xil_defaultlib.splitter_0
+Compiling module xil_defaultlib.splitter_1
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.cronometro_con_display
+Compiling architecture behavioral of entity xil_defaultlib.cronometro_tb
+Built simulation snapshot Cronometro_tb_time_synth
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2198.559 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2198.559 ; gain = 0.000
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 2204.984 ; gain = 8.316
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj Cronometro_tb_vlog.prj"
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Cronometro_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Cronometro_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Cronometro_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Cronometro_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2207.508 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2310.945 ; gain = 0.000
+[Thu Dec  1 10:35:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2311.922 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AA7F11A
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 4442.992 ; gain = 2131.070
+set_property PROGRAM.FILE {C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/impl_1/cronometro_con_display.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/impl_1/cronometro_con_display.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-26] write_vhdl -mode funcsim -nolib -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd
+INFO: [SIM-utils-54] Inspecting design source files for 'Cronometro_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Divisore_freq'
+INFO: [VRFC 10-3107] analyzing entity '\Divisore_freq__parameterized1\'
+INFO: [VRFC 10-3107] analyzing entity '\Divisore_freq__parameterized3\'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_10'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_11'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_12'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_13'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_14'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_15'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_16'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_17'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_18'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_3'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_4'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_5'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_6'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_7'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_8'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_9'
+INFO: [VRFC 10-3107] analyzing entity 'contatore_modulo_8_display'
+INFO: [VRFC 10-3107] analyzing entity 'splitter'
+INFO: [VRFC 10-3107] analyzing entity 'splitter_0'
+INFO: [VRFC 10-3107] analyzing entity 'splitter_1'
+INFO: [VRFC 10-3107] analyzing entity 'Counter_mod32_struct'
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_64_struct'
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_64_struct_2'
+INFO: [VRFC 10-3107] analyzing entity 'display'
+INFO: [VRFC 10-3107] analyzing entity 'Counter_mod24_struct'
+INFO: [VRFC 10-3107] analyzing entity 'Cronometro'
+INFO: [VRFC 10-3107] analyzing entity 'cronometro_con_display'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/bobbo/Documents/GitHub/esercizi-di-architettura-e-sistemi-digitali/5_Cronometro/5_Cronometro.srcs/sim_1/new/Cronometro_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Cronometro_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11110101111100111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111011101111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111011111110000...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_13 [ff_d_13_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_14 [ff_d_14_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011100001000110100...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101010000000110000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10111011101110110000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111111111111")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_15 [ff_d_15_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01011010110101100101...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11100000")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.FF_D_16 [ff_d_16_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_17 [ff_d_17_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00111001010000100010...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1100011001000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000010000000")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_18 [ff_d_18_default]
+Compiling architecture structure of entity xil_defaultlib.cont_mod_64_struct [cont_mod_64_struct_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000100000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111000000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000001000000000000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_8 [ff_d_8_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1011000000101100")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000100000001000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_9 [ff_d_9_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110001100011000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111111111110000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_10 [ff_d_10_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_11 [ff_d_11_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_12 [ff_d_12_default]
+Compiling architecture structure of entity xil_defaultlib.Counter_mod32_struct [counter_mod32_struct_default]
+Compiling architecture structure of entity xil_defaultlib.Counter_mod24_struct [counter_mod24_struct_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111011111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01010101000000111010...]
+Compiling architecture structure of entity xil_defaultlib.FF_D [ff_d_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11110111111100001111...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_3 [ff_d_3_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111011111100001111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110110011011100")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_4 [ff_d_4_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_5 [ff_d_5_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_6 [ff_d_6_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11001101110111011111...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.FF_D_7 [ff_d_7_default]
+Compiling architecture structure of entity xil_defaultlib.cont_mod_64_struct_2 [cont_mod_64_struct_2_default]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11111110")(0,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000111110000")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10000000")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.Divisore_freq [divisore_freq_default]
+Compiling architecture structure of entity xil_defaultlib.Cronometro [cronometro_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11110111")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11101111")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011010010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000001000100000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000110100000000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011010010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111100000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111110111010000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011011101")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00111010000010100011...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01111000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111110000000")(0...]
+Compiling architecture structure of entity xil_defaultlib.contatore_modulo_8_display [contatore_modulo_8_display_defau...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111100000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111110111")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111111110")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1101111111111111")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000000000001")(0...]
+Compiling architecture structure of entity xil_defaultlib.\Divisore_freq__parameterized1\ [\Divisore_freq__parameterized1_d...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111000000000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111110111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111011111")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00000001")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.\Divisore_freq__parameterized3\ [\Divisore_freq__parameterized3_d...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101111101000001100...]
+Compiling architecture ldce_v of entity unisim.LDCE [ldce_default]
+Compiling architecture structure of entity xil_defaultlib.splitter [splitter_default]
+Compiling architecture structure of entity xil_defaultlib.splitter_0 [splitter_0_default]
+Compiling architecture structure of entity xil_defaultlib.splitter_1 [splitter_1_default]
+Compiling architecture structure of entity xil_defaultlib.display [display_default]
+Compiling architecture structure of entity xil_defaultlib.cronometro_con_display [cronometro_con_display_default]
+Compiling architecture behavioral of entity xil_defaultlib.cronometro_tb
+Built simulation snapshot Cronometro_tb_func_synth
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4476.566 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Cronometro_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Cronometro_tb} -tclbatch {Cronometro_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Cronometro_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Cronometro_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 4491.223 ; gain = 34.277
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 4491.223 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-26] write_vhdl -mode funcsim -nolib -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd
+INFO: [SIM-utils-54] Inspecting design source files for 'Cronometro_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Divisore_freq'
+INFO: [VRFC 10-3107] analyzing entity '\Divisore_freq__parameterized1\'
+INFO: [VRFC 10-3107] analyzing entity '\Divisore_freq__parameterized3\'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_10'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_11'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_12'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_13'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_14'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_15'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_16'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_17'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_18'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_3'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_4'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_5'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_6'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_7'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_8'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_9'
+INFO: [VRFC 10-3107] analyzing entity 'contatore_modulo_8_display'
+INFO: [VRFC 10-3107] analyzing entity 'splitter'
+INFO: [VRFC 10-3107] analyzing entity 'splitter_0'
+INFO: [VRFC 10-3107] analyzing entity 'splitter_1'
+INFO: [VRFC 10-3107] analyzing entity 'Counter_mod32_struct'
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_64_struct'
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_64_struct_2'
+INFO: [VRFC 10-3107] analyzing entity 'display'
+INFO: [VRFC 10-3107] analyzing entity 'Counter_mod24_struct'
+INFO: [VRFC 10-3107] analyzing entity 'Cronometro'
+INFO: [VRFC 10-3107] analyzing entity 'cronometro_con_display'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11110101111100111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111011101111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111011111110000...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_13 [ff_d_13_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_14 [ff_d_14_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011100001000110100...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101010000000110000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10111011101110110000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111111111111")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_15 [ff_d_15_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01011010110101100101...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11100000")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.FF_D_16 [ff_d_16_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_17 [ff_d_17_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00111001010000100010...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1100011001000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000010000000")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_18 [ff_d_18_default]
+Compiling architecture structure of entity xil_defaultlib.cont_mod_64_struct [cont_mod_64_struct_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000100000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111000000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000001000000000000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_8 [ff_d_8_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1011000000101100")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000100000001000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_9 [ff_d_9_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110001100011000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111111111110000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_10 [ff_d_10_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_11 [ff_d_11_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_12 [ff_d_12_default]
+Compiling architecture structure of entity xil_defaultlib.Counter_mod32_struct [counter_mod32_struct_default]
+Compiling architecture structure of entity xil_defaultlib.Counter_mod24_struct [counter_mod24_struct_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111011111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01010101000000111010...]
+Compiling architecture structure of entity xil_defaultlib.FF_D [ff_d_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11110111111100001111...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_3 [ff_d_3_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111011111100001111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110110011011100")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_4 [ff_d_4_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_5 [ff_d_5_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_6 [ff_d_6_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11001101110111011111...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.FF_D_7 [ff_d_7_default]
+Compiling architecture structure of entity xil_defaultlib.cont_mod_64_struct_2 [cont_mod_64_struct_2_default]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11111110")(0,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000111110000")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10000000")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.Divisore_freq [divisore_freq_default]
+Compiling architecture structure of entity xil_defaultlib.Cronometro [cronometro_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11110111")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11101111")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011010010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000001000100000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000110100000000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011010010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111100000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111110111010000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011011101")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00111010000010100011...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01111000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111110000000")(0...]
+Compiling architecture structure of entity xil_defaultlib.contatore_modulo_8_display [contatore_modulo_8_display_defau...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111100000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111110111")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111111110")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1101111111111111")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000000000001")(0...]
+Compiling architecture structure of entity xil_defaultlib.\Divisore_freq__parameterized1\ [\Divisore_freq__parameterized1_d...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111000000000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111110111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111011111")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00000001")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.\Divisore_freq__parameterized3\ [\Divisore_freq__parameterized3_d...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101111101000001100...]
+Compiling architecture ldce_v of entity unisim.LDCE [ldce_default]
+Compiling architecture structure of entity xil_defaultlib.splitter [splitter_default]
+Compiling architecture structure of entity xil_defaultlib.splitter_0 [splitter_0_default]
+Compiling architecture structure of entity xil_defaultlib.splitter_1 [splitter_1_default]
+Compiling architecture structure of entity xil_defaultlib.display [display_default]
+Compiling architecture structure of entity xil_defaultlib.cronometro_con_display [cronometro_con_display_default]
+Compiling architecture behavioral of entity xil_defaultlib.cronometro_tb
+Built simulation snapshot Cronometro_tb_func_synth
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4568.957 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Cronometro_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Cronometro_tb} -tclbatch {Cronometro_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Cronometro_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Cronometro_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 4569.305 ; gain = 0.348
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 4569.305 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 4636.758 ; gain = 0.000
+current_sim simulation_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation  -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Impossibile accedere al file. Il file è utilizzato da un altro processo: "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/timing/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-26] write_vhdl -mode funcsim -nolib -force -file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd
+INFO: [SIM-utils-54] Inspecting design source files for 'Cronometro_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim/Cronometro_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Divisore_freq'
+INFO: [VRFC 10-3107] analyzing entity '\Divisore_freq__parameterized1\'
+INFO: [VRFC 10-3107] analyzing entity '\Divisore_freq__parameterized3\'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_10'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_11'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_12'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_13'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_14'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_15'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_16'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_17'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_18'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_3'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_4'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_5'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_6'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_7'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_8'
+INFO: [VRFC 10-3107] analyzing entity 'FF_D_9'
+INFO: [VRFC 10-3107] analyzing entity 'contatore_modulo_8_display'
+INFO: [VRFC 10-3107] analyzing entity 'splitter'
+INFO: [VRFC 10-3107] analyzing entity 'splitter_0'
+INFO: [VRFC 10-3107] analyzing entity 'splitter_1'
+INFO: [VRFC 10-3107] analyzing entity 'Counter_mod32_struct'
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_64_struct'
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod_64_struct_2'
+INFO: [VRFC 10-3107] analyzing entity 'display'
+INFO: [VRFC 10-3107] analyzing entity 'Counter_mod24_struct'
+INFO: [VRFC 10-3107] analyzing entity 'Cronometro'
+INFO: [VRFC 10-3107] analyzing entity 'cronometro_con_display'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11110101111100111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111011101111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111011111110000...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_13 [ff_d_13_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_14 [ff_d_14_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011100001000110100...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101010000000110000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10111011101110110000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111111111111")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_15 [ff_d_15_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01011010110101100101...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11100000")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.FF_D_16 [ff_d_16_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_17 [ff_d_17_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00111001010000100010...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1100011001000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000010000000")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_18 [ff_d_18_default]
+Compiling architecture structure of entity xil_defaultlib.cont_mod_64_struct [cont_mod_64_struct_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000100000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111000000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000001000000000000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_8 [ff_d_8_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1011000000101100")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000100000001000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_9 [ff_d_9_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110001100011000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111111111110000...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_10 [ff_d_10_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_11 [ff_d_11_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_12 [ff_d_12_default]
+Compiling architecture structure of entity xil_defaultlib.Counter_mod32_struct [counter_mod32_struct_default]
+Compiling architecture structure of entity xil_defaultlib.Counter_mod24_struct [counter_mod24_struct_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111011111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01010101000000111010...]
+Compiling architecture structure of entity xil_defaultlib.FF_D [ff_d_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11110111111100001111...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_3 [ff_d_3_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111011111100001111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110110011011100")(0...]
+Compiling architecture structure of entity xil_defaultlib.FF_D_4 [ff_d_4_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_5 [ff_d_5_default]
+Compiling architecture structure of entity xil_defaultlib.FF_D_6 [ff_d_6_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11001101110111011111...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.FF_D_7 [ff_d_7_default]
+Compiling architecture structure of entity xil_defaultlib.cont_mod_64_struct_2 [cont_mod_64_struct_2_default]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11111110")(0,7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000111110000")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10000000")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.Divisore_freq [divisore_freq_default]
+Compiling architecture structure of entity xil_defaultlib.Cronometro [cronometro_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11110111")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11101111")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011010010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000001000100000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000110100000000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011010010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111100000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111110111010000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011011101")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00111010000010100011...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01111000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111110000000")(0...]
+Compiling architecture structure of entity xil_defaultlib.contatore_modulo_8_display [contatore_modulo_8_display_defau...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111100000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111110111")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111111110")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1101111111111111")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000000000001")(0...]
+Compiling architecture structure of entity xil_defaultlib.\Divisore_freq__parameterized1\ [\Divisore_freq__parameterized1_d...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111000000000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111110111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111011111")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00000001")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.\Divisore_freq__parameterized3\ [\Divisore_freq__parameterized3_d...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101111101000001100...]
+Compiling architecture ldce_v of entity unisim.LDCE [ldce_default]
+Compiling architecture structure of entity xil_defaultlib.splitter [splitter_default]
+Compiling architecture structure of entity xil_defaultlib.splitter_0 [splitter_0_default]
+Compiling architecture structure of entity xil_defaultlib.splitter_1 [splitter_1_default]
+Compiling architecture structure of entity xil_defaultlib.display [display_default]
+Compiling architecture structure of entity xil_defaultlib.cronometro_con_display [cronometro_con_display_default]
+Compiling architecture behavioral of entity xil_defaultlib.cronometro_tb
+Built simulation snapshot Cronometro_tb_func_synth
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4636.809 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Cronometro_tb_func_synth -key {Post-Synthesis:sim_1:Functional:Cronometro_tb} -tclbatch {Cronometro_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Cronometro_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Cronometro_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 4636.809 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xvhdl --incr --relax -prj Cronometro_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'Cronometro_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_func_synth xil_defaultlib.Cronometro_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 4636.809 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.srcs/utils_1/imports/synth_1/cronometro_con_display.dcp with file C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1/cronometro_con_display.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1
+
+launch_runs synth_1 -jobs 12
+[Thu Dec  1 10:48:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Thu Dec  1 10:49:13 2022] Launched impl_1...
+Run output will be captured here: C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/bobbo/Documents/5_Cronometro/5_Cronometro.runs/impl_1/cronometro_con_display.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  1 10:52:34 2022...

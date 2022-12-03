@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"Cronometro_tb_func_synth.vhd" \
+"../../../../../../GitHub/esercizi-di-architettura-e-sistemi-digitali/5_Cronometro/5_Cronometro.srcs/sim_1/new/Cronometro_tb.vhd" \
+
+# Do not sort compile order
+nosort

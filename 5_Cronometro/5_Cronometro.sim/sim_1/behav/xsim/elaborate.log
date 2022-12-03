@@ -1,9 +1,8 @@
 Vivado Simulator v2022.1
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: D:/xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_behav xil_defaultlib.Cronometro_tb -log elaborate.log 
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Cronometro_tb_behav xil_defaultlib.Cronometro_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-8856] comparison between unequal length arrays always returns FALSE; left argument length 6 is different from right argument length 8 for 'std_logic_vector_93' array [C:/Users/bobbo/Documents/esercizi-di-architettura-e-sistemi-digitali/5_Cronometro/5_Cronometro.srcs/sources_1/new/Counter_mod64.vhd:63]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -19,5 +18,14 @@ Compiling architecture behavioral of entity xil_defaultlib.FF_D [ff_d_default]
 Compiling architecture structural of entity xil_defaultlib.Counter_mod32_struct [counter_mod32_struct_default]
 Compiling architecture structural of entity xil_defaultlib.Counter_mod24_struct [counter_mod24_struct_default]
 Compiling architecture structural of entity xil_defaultlib.Cronometro [cronometro_default]
+Compiling architecture behavioral of entity xil_defaultlib.Divisore_freq [\Divisore_freq(f_out=1000)\]
+Compiling architecture behavioral of entity xil_defaultlib.Divisore_freq [divisore_freq_default]
+Compiling architecture behavioral of entity xil_defaultlib.contatore_modulo_8_display [contatore_modulo_8_display_defau...]
+Compiling architecture behavioral of entity xil_defaultlib.splitter [splitter_default]
+Compiling architecture behavioral of entity xil_defaultlib.selettore_display [selettore_display_default]
+Compiling architecture behavioral of entity xil_defaultlib.gestore_catodi [gestore_catodi_default]
+Compiling architecture dataflow of entity xil_defaultlib.gestore_anodi [gestore_anodi_default]
+Compiling architecture structural of entity xil_defaultlib.display [display_default]
+Compiling architecture structural of entity xil_defaultlib.cronometro_con_display [cronometro_con_display_default]
 Compiling architecture behavioral of entity xil_defaultlib.cronometro_tb
 Built simulation snapshot Cronometro_tb_behav
