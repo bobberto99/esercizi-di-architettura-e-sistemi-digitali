@@ -1,7 +1,0 @@
-Running: xsim.dir/Riconoscitore_2modi_TB_time_synth/xsimk.exe -simmode gui -wdb Riconoscitore_2modi_TB_time_synth.wdb -simrunnum 0 -socket 3356
-Design successfully loaded
-Design Loading Memory Usage: 7468 KB (Peak: 7468 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 8252 KB (Peak: 8252 KB)
-Simulation CPU Usage: 140 ms

@@ -1,7 +1,0 @@
-Running: xsim.dir/Cronometro_tb_func_synth/xsimk.exe -simmode gui -wdb Cronometro_tb_func_synth.wdb -simrunnum 0 -socket 51239
-Design successfully loaded
-Design Loading Memory Usage: 8736 KB (Peak: 8736 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 9548 KB (Peak: 9548 KB)
-Simulation CPU Usage: 46 ms

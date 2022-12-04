@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../3_Riconoscitore.srcs/sim_1/new/Riconoscitore_2modi_TB.vhd" \
-
-# Do not sort compile order
-nosort
