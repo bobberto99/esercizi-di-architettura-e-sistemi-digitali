@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Dec 16 17:21:10 2022
+# Process ID: 14192
+# Current directory: D:/Xilinx/Progetti_Xilinx/7_Handshaking/7_Handshaking.runs/synth_1
+# Command line: vivado.exe -log Handshaking_TB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Handshaking_TB.tcl
+# Log file: D:/Xilinx/Progetti_Xilinx/7_Handshaking/7_Handshaking.runs/synth_1/Handshaking_TB.vds
+# Journal file: D:/Xilinx/Progetti_Xilinx/7_Handshaking/7_Handshaking.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1RVA572, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 4, Host memory: 17124 MB
+#-----------------------------------------------------------
+source Handshaking_TB.tcl -notrace

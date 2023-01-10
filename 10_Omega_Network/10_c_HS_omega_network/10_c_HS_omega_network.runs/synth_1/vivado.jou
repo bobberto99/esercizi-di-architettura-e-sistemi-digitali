@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Dec 20 18:34:28 2022
+# Process ID: 10432
+# Current directory: D:/Xilinx/Progetti_Xilinx/10_c_HS_omega_network/10_c_HS_omega_network.runs/synth_1
+# Command line: vivado.exe -log HS_omega_network.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HS_omega_network.tcl
+# Log file: D:/Xilinx/Progetti_Xilinx/10_c_HS_omega_network/10_c_HS_omega_network.runs/synth_1/HS_omega_network.vds
+# Journal file: D:/Xilinx/Progetti_Xilinx/10_c_HS_omega_network/10_c_HS_omega_network.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1RVA572, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 4, Host memory: 17124 MB
+#-----------------------------------------------------------
+source HS_omega_network.tcl -notrace

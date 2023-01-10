@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Jan  4 16:30:01 2023
+# Process ID: 14196
+# Current directory: C:/Users/bobbo/Desktop/roba tesina/3_Riconoscitoree/3_Riconoscitoree.runs/synth_1
+# Command line: vivado.exe -log Riconoscitore_su_board.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Riconoscitore_su_board.tcl
+# Log file: C:/Users/bobbo/Desktop/roba tesina/3_Riconoscitoree/3_Riconoscitoree.runs/synth_1/Riconoscitore_su_board.vds
+# Journal file: C:/Users/bobbo/Desktop/roba tesina/3_Riconoscitoree/3_Riconoscitoree.runs/synth_1\vivado.jou
+# Running On: DESKTOP-IR34L4A, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 12, Host memory: 17101 MB
+#-----------------------------------------------------------
+source Riconoscitore_su_board.tcl -notrace

@@ -1,0 +1,21 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot omega_network_TB_behav xil_defaultlib.omega_network_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture dataflow of entity xil_defaultlib.arbitro_logico [arbitro_logico_default]
+Compiling architecture structural of entity xil_defaultlib.parte_di_controllo [parte_di_controllo_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_2_1 [mux_2_1_default]
+Compiling architecture dataflow of entity xil_defaultlib.demux_1_2 [demux_1_2_default]
+Compiling architecture structural of entity xil_defaultlib.switch_2_2 [switch_2_2_default]
+Compiling architecture structural of entity xil_defaultlib.parte_operativa [parte_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.omega_network_4_4 [omega_network_4_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.omega_network_tb
+Built simulation snapshot omega_network_TB_behav

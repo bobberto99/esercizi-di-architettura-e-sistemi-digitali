@@ -1,0 +1,84 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot sim_rete_neurale_behav xil_defaultlib.sim_rete_neurale -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.type_package_output
+Compiling package xil_defaultlib.type_package
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.uc_neurone_hidden [uc_neurone_hidden_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000011011","1...]
+Compiling architecture behavioral of entity xil_defaultlib.counter_mod9 [counter_mod9_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_16_1 [mux_16_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioural of entity xil_defaultlib.register_9 [register_9_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_1 [register_1_default]
+Compiling architecture rtl of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_sub [adder_sub_default]
+Compiling architecture structural of entity xil_defaultlib.Booth_multiplier [booth_multiplier_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_2_1 [\mux_2_1(bits=32)\]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_32 [ripple_carry_32_default]
+Compiling architecture structural of entity xil_defaultlib.adder_sub_32 [adder_sub_32_default]
+Compiling architecture behavioural of entity xil_defaultlib.registro [\registro(bits=32)\]
+Compiling architecture dataflow of entity xil_defaultlib.ReLU [\ReLU(bits=32)\]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0000110...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000111101","0...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0001111...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("111010011","0...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("1110100...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000101101","1...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0001011...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000010001","0...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0000100...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("110110010","1...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("1101100...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("111011100","1...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("1110111...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000000100","0...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0000001...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000101011","0...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0001010...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(rom_generic=("000110101","0...]
+Compiling architecture structural of entity xil_defaultlib.hidden_neuron [\hidden_neuron(weights=("0001101...]
+Compiling architecture structural of entity xil_defaultlib.hidden_layer [hidden_layer_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc_neurone_output [uc_neurone_output_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture behavioral of entity xil_defaultlib.counter_mod10 [counter_mod10_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_16_1_output [mux_16_1_output_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit_32 [control_unit_32_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_mod32 [counter_mod32_default]
+Compiling architecture behavioural of entity xil_defaultlib.register_shift_32 [register_shift_32_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_64_test [add_64_test_default]
+Compiling architecture structural of entity xil_defaultlib.Booth_multiplier_32 [booth_multiplier_32_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_2_1 [\mux_2_1(bits=64)\]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_64 [ripple_carry_64_default]
+Compiling architecture structural of entity xil_defaultlib.adder_sub_64 [adder_sub_64_default]
+Compiling architecture behavioural of entity xil_defaultlib.registro [\registro(bits=64)\]
+Compiling architecture dataflow of entity xil_defaultlib.ReLU [\ReLU(bits=64)\]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(rom_generic=("000000...]
+Compiling architecture structural of entity xil_defaultlib.output_neuron [\output_neuron(weights=("0000000...]
+Compiling architecture structural of entity xil_defaultlib.output_layer [output_layer_default]
+Compiling architecture structural of entity xil_defaultlib.rete_neurale [rete_neurale_default]
+Compiling architecture behavioral of entity xil_defaultlib.sim_rete_neurale
+Built simulation snapshot sim_rete_neurale_behav

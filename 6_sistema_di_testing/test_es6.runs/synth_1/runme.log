@@ -1,0 +1,284 @@
+
+*** Running vivado
+    with args -log sistema_testing_on_board.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sistema_testing_on_board.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source sistema_testing_on_board.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1268.449 ; gain = 0.000
+Command: read_checkpoint -auto_incremental -incremental D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/utils_1/imports/synth_1/insieme_cose.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/utils_1/imports/synth_1/insieme_cose.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top sistema_testing_on_board -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7568
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1268.449 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sistema_testing_on_board' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/sistema_testing_on_board.vhd:42]
+INFO: [Synth 8-3491] module 'insieme_cose' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:34' bound to instance 'sistema' of component 'insieme_cose' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/sistema_testing_on_board.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'insieme_cose' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:42]
+INFO: [Synth 8-3491] module 'counter_mod16' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/counter_16.vhd:32' bound to instance 'counter' of component 'counter_mod16' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'counter_mod16' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/counter_16.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod16' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/counter_16.vhd:40]
+INFO: [Synth 8-3491] module 'ROM' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/ROM.vhd:5' bound to instance 'rom_data' of component 'ROM' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'ROM' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/ROM.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/ROM.vhd:12]
+INFO: [Synth 8-3491] module 'combinatorius' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/combinatorius.vhd:34' bound to instance 'macchina' of component 'combinatorius' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'combinatorius' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/combinatorius.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'combinatorius' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/combinatorius.vhd:40]
+INFO: [Synth 8-3491] module 'memoria' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/memoria.vhd:35' bound to instance 'ram' of component 'memoria' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'memoria' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/memoria.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'memoria' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/memoria.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'insieme_cose' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/insieme_cose.vhd:42]
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/debouncer.vhd:34' bound to instance 'deb_read' of component 'ButtonDebouncer' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/sistema_testing_on_board.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'ButtonDebouncer' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/debouncer.vhd:45]
+INFO: [Synth 8-226] default block is never used [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/debouncer.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'ButtonDebouncer' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/debouncer.vhd:45]
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/debouncer.vhd:34' bound to instance 'deb_reset' of component 'ButtonDebouncer' [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/sistema_testing_on_board.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'sistema_testing_on_board' (0#1) [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/sistema_testing_on_board.vhd:42]
+WARNING: [Synth 8-7129] Port input[3] in module combinatorius is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1268.449 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1268.449 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1268.449 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1268.449 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/constrs_1/new/scheda.xdc]
+Finished Parsing XDC File [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/constrs_1/new/scheda.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/constrs_1/new/scheda.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sistema_testing_on_board_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sistema_testing_on_board_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1328.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1328.039 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/utils_1/imports/synth_1/insieme_cose.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'btn_state_reg' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             non_premuto |                               00 |                               00
+     controllo_pressione |                               01 |                               01
+                 premuto |                               10 |                               10
+      controllo_rilascio |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'btn_state_reg' using encoding 'sequential' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 17    
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 2     
+	  17 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 32    
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 32    
+	   4 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'sistema/rom_data/data_reg' and it is trimmed from '4' to '3' bits. [D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.srcs/sources_1/new/ROM.vhd:24]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     1|
+|4     |LUT2   |     3|
+|5     |LUT3   |     1|
+|6     |LUT4   |    74|
+|7     |LUT5   |     2|
+|8     |LUT6   |    12|
+|9     |FDRE   |    77|
+|10    |IBUF   |     3|
+|11    |OBUF   |     3|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:39 . Memory (MB): peak = 1328.039 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:42 . Memory (MB): peak = 1328.039 ; gain = 59.590
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1328.039 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1328.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: aad630de
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 1328.039 ; gain = 59.590
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx/Progetti_Xilinx/test_es6/test_es6.runs/synth_1/sistema_testing_on_board.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file sistema_testing_on_board_utilization_synth.rpt -pb sistema_testing_on_board_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 28 17:40:00 2022...

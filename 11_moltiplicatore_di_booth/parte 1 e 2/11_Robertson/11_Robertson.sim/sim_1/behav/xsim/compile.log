@@ -1,0 +1,13 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Booth_multiplier'
+WARNING: [VRFC 10-3093] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Booth_multiplier.vhd:87]
+WARNING: [VRFC 10-3093] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Booth_multiplier.vhd:94]
+WARNING: [VRFC 10-3093] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Booth_multiplier.vhd:104]
+WARNING: [VRFC 10-3093] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Booth_multiplier.vhd:115]
+WARNING: [VRFC 10-3093] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Booth_multiplier.vhd:126]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/ButtonDebouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ButtonDebouncer'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.srcs/sources_1/new/Multiplier_on_board.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Multiplier_on_board'

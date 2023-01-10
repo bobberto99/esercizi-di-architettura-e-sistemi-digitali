@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Dec 22 17:00:59 2022
+# Process ID: 8648
+# Current directory: D:/Xilinx/Progetti_Xilinx/11_Robertson
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13396 D:\Xilinx\Progetti_Xilinx\11_Robertson\11_Robertson.xpr
+# Log file: D:/Xilinx/Progetti_Xilinx/11_Robertson/vivado.log
+# Journal file: D:/Xilinx/Progetti_Xilinx/11_Robertson\vivado.jou
+# Running On: DESKTOP-1RVA572, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 4, Host memory: 17124 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Xilinx/Progetti_Xilinx/11_Robertson/11_Robertson.xpr

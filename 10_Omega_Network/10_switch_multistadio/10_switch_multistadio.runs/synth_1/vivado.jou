@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Dec 29 18:18:27 2022
+# Process ID: 2132
+# Current directory: D:/Xilinx/Progetti_Xilinx/10_switch_multistadio/10_switch_multistadio.runs/synth_1
+# Command line: vivado.exe -log omega_network_4_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source omega_network_4_4.tcl
+# Log file: D:/Xilinx/Progetti_Xilinx/10_switch_multistadio/10_switch_multistadio.runs/synth_1/omega_network_4_4.vds
+# Journal file: D:/Xilinx/Progetti_Xilinx/10_switch_multistadio/10_switch_multistadio.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1RVA572, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 4, Host memory: 17124 MB
+#-----------------------------------------------------------
+source omega_network_4_4.tcl -notrace

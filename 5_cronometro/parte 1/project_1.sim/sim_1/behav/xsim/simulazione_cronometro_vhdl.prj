@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cronometro parte 1 srcs da includere/Counter_mod24_struct.vhd" \
+"../../../../cronometro parte 1 srcs da includere/Counter_mod32_struct.vhd" \
+"../../../../cronometro parte 1 srcs da includere/Counter_mod60.vhd" \
+"../../../../cronometro parte 1 srcs da includere/Counter_mod64.vhd" \
+"../../../../cronometro parte 1 srcs da includere/Cronometro.vhd" \
+"../../../../cronometro parte 1 srcs da includere/Divisore_freq.vhd" \
+"../../../../cronometro parte 1 srcs da includere/FF_D.vhd" \
+"../../../../cronometro parte 1 simulazione da includere/simulazione_cronometro.vhd" \
+
+# Do not sort compile order
+nosort

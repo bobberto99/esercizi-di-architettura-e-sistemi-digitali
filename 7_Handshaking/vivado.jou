@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Dec 31 13:22:55 2022
+# Process ID: 8892
+# Current directory: C:/Users/bobbo/Desktop/roba tesina/7_Handshaking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18188 C:\Users\bobbo\Desktop\roba tesina\7_Handshaking\7_Handshaking.xpr
+# Log file: C:/Users/bobbo/Desktop/roba tesina/7_Handshaking/vivado.log
+# Journal file: C:/Users/bobbo/Desktop/roba tesina/7_Handshaking\vivado.jou
+# Running On: DESKTOP-IR34L4A, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 12, Host memory: 17101 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/bobbo/Desktop/roba tesina/7_Handshaking/7_Handshaking.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source HS_TB.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source HS_TB.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "sim_hidden_neuron_behav" "xil_defaultlib.sim_hidden_neuron" -log "elaborate.log" 

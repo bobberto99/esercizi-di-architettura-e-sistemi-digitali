@@ -1,0 +1,14 @@
+
+*** Running vivado
+    with args -log Riconoscitore_su_board.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Riconoscitore_su_board.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Riconoscitore_su_board.tcl -notrace
+ERROR: [Common 17-165] Too many positional options when parsing 'tesina/3_Riconoscitoree/3_Riconoscitoree.srcs/utils_1/imports/synth_1/Riconoscitore_su_board.dcp', please type 'read_checkpoint -help' for usage info.
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  4 16:30:08 2023...

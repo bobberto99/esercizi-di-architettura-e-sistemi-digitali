@@ -1,0 +1,880 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jan  2 15:20:01 2023
+# Process ID: 11780
+# Current directory: D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1
+# Command line: vivado.exe -log rete_neurale.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rete_neurale.tcl
+# Log file: D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1/rete_neurale.vds
+# Journal file: D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1RVA572, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 4, Host memory: 17124 MB
+#-----------------------------------------------------------
+source rete_neurale.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1274.938 ; gain = 23.871
+Command: synth_design -top rete_neurale -part xc7a50ticsg324-1L -incremental_mode off
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11804
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:89]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:96]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:106]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:117]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:128]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:89]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:96]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:106]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:117]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:128]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:110]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:131]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:179]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:104]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:126]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:173]
+WARNING: [Synth 8-9112] actual for formal port 'reset' is neither a static name nor a globally static expression [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/rete_neurale.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'rete_neurale' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/rete_neurale.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'hidden_layer' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:57]
+	Parameter weights bound to: 81'b000011011111010010000001001000001111111110001111011111000010100000011110111100111 
+	Parameter bias bound to: 32'b11111111111111111111111111111000 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000011011111010010000001001000001111111110001111011111000010100000011110111100111 
+	Parameter bias bound to: -8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uc_neurone_hidden' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/uc_neurone_hidden.vhd:50]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/uc_neurone_hidden.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'uc_neurone_hidden' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/uc_neurone_hidden.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'ROM' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000011011111010010000001001000001111111110001111011111000010100000011110111100111 
+INFO: [Synth 8-256] done synthesizing module 'ROM' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'counter_mod9' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/counter_9.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod9' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/counter_9.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'mux_16_1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_16_1.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'mux_16_1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_16_1.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'Booth_multiplier' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd:53]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd:73]
+WARNING: [Synth 8-614] signal 'q_0' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd:73]
+WARNING: [Synth 8-614] signal 'q_meno1' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'register_9' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/9bit_register.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'register_9' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/9bit_register.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'register_1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/1bit_register.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'register_1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/1bit_register.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'adder_sub' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/adder_sub.vhd:11]
+INFO: [Synth 8-3491] module 'ripple_carry' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:4' bound to instance 'RA' of component 'ripple_carry' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/adder_sub.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'ripple_carry' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:11]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA0' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:12]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA7' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'ripple_carry' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'adder_sub' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/adder_sub.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Booth_multiplier' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'mux_2_1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_2_1.vhd:46]
+	Parameter bits bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_2_1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_2_1.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'adder_sub_32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/adder_sub_32.vhd:11]
+INFO: [Synth 8-3491] module 'ripple_carry_32' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:4' bound to instance 'RA' of component 'ripple_carry_32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/adder_sub_32.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'ripple_carry_32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:11]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA0' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:23]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA31' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'ripple_carry_32' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'adder_sub_32' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/adder_sub_32.vhd:11]
+INFO: [Synth 8-638] synthesizing module 'registro' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/register_neurone.vhd:29]
+	Parameter bits bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'registro' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/register_neurone.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'ReLU' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ReLU.vhd:44]
+	Parameter bits bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ReLU' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ReLU.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000111101000110110111010010111001110111100011000010001111011111111101111000110001 
+	Parameter bias bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000111101000110110111010010111001110111100011000010001111011111111101111000110001 
+	Parameter bias bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized0' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000111101000110110111010010111001110111100011000010001111011111111101111000110001 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized0' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b111010011000100101000011101111011001000010010000000011111110011000010100111111010 
+	Parameter bias bound to: 32'b11111111111111111111111111110010 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized3' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b111010011000100101000011101111011001000010010000000011111110011000010100111111010 
+	Parameter bias bound to: -14 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b111010011000100101000011101111011001000010010000000011111110011000010100111111010 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized3' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000101101111111101000101111111001011000011111111011000000010100111100010000000100 
+	Parameter bias bound to: 32'b11111111111111111111111111111110 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized5' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000101101111111101000101111111001011000011111111011000000010100111100010000000100 
+	Parameter bias bound to: -2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized2' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000101101111111101000101111111001011000011111111011000000010100111100010000000100 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized2' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized5' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000010001000011010000010000111001010111011000111001101000100100000100110000100101 
+	Parameter bias bound to: 32'b11111111111111111111111111111000 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized7' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000010001000011010000010000111001010111011000111001101000100100000100110000100101 
+	Parameter bias bound to: -8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized3' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000010001000011010000010000111001010111011000111001101000100100000100110000100101 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized3' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized7' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b110110010111011110000010011000101010111111000000000101000111000111111001111110011 
+	Parameter bias bound to: 32'b00000000000000000000000000000110 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized9' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b110110010111011110000010011000101010111111000000000101000111000111111001111110011 
+	Parameter bias bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized4' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b110110010111011110000010011000101010111111000000000101000111000111111001111110011 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized4' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized9' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b111011100111101100000010001000001011111101111000101001111111011111010011000010010 
+	Parameter bias bound to: 32'b11111111111111111111111111110101 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized11' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b111011100111101100000010001000001011111101111000101001111111011111010011000010010 
+	Parameter bias bound to: -11 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized5' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b111011100111101100000010001000001011111101111000101001111111011111010011000010010 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized5' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized11' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000000100000101001111110101111101101000001110111101010111010110111100110000001101 
+	Parameter bias bound to: 32'b11111111111111111111111111111011 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized13' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000000100000101001111110101111101101000001110111101010111010110111100110000001101 
+	Parameter bias bound to: -5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized6' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000000100000101001111110101111101101000001110111101010111010110111100110000001101 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized6' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized13' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000101011000011000000001000000101001000001111000000000111001111000000100111101001 
+	Parameter bias bound to: 32'b11111111111111111111111111110111 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized15' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000101011000011000000001000000101001000001111000000000111001111000000100111101001 
+	Parameter bias bound to: -9 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized7' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000101011000011000000001000000101001000001111000000000111001111000000100111101001 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized7' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized15' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000110101001000001111100101111011010000100110111101111111110011000001101000010111 
+	Parameter bias bound to: 32'b00000000000000000000000000001110 
+INFO: [Synth 8-3491] module 'hidden_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:37' bound to instance 'neurone' of component 'hidden_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'hidden_neuron__parameterized17' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+	Parameter weights bound to: 81'b000110101001000001111100101111011010000100110111101111111110011000001101000010111 
+	Parameter bias bound to: 14 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM__parameterized8' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+	Parameter rom_generic bound to: 81'b000110101001000001111100101111011010000100110111101111111110011000001101000010111 
+INFO: [Synth 8-256] done synthesizing module 'ROM__parameterized8' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hidden_neuron__parameterized17' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'hidden_layer' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'output_layer' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_layer.vhd:51]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111110100101110101000000000000000000000000000000000000111111111111110000010001011100000000000000000011001011011000010000000000000000000000000000000000000000000000000000000000000000001111111111111110100000100010100000000000000001110010011111111100 
+	Parameter bias bound to: 7'b0001100 
+INFO: [Synth 8-3491] module 'output_neuron' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:40' bound to instance 'neurone' of component 'output_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_layer.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'output_neuron' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111110100101110101000000000000000000000000000000000000111111111111110000010001011100000000000000000011001011011000010000000000000000000000000000000000000000000000000000000000000000001111111111111110100000100010100000000000000001110010011111111100 
+	Parameter bias bound to: 7'b0001100 
+INFO: [Synth 8-638] synthesizing module 'uc_neurone_output' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:43]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'uc_neurone_output' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'ROM_output' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111110100101110101000000000000000000000000000000000000111111111111110000010001011100000000000000000011001011011000010000000000000000000000000000000000000000000000000000000000000000001111111111111110100000100010100000000000000001110010011111111100 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'counter_mod10' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/counter_10.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod10' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/counter_10.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'mux_16_1_output' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_16_1_output.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'mux_16_1_output' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_16_1_output.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'Booth_multiplier_32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'control_unit_32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd:53]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd:73]
+WARNING: [Synth 8-614] signal 'q_0' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd:73]
+WARNING: [Synth 8-614] signal 'q_meno1' is read in the process but is not in the sensitivity list [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'control_unit_32' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'counter_mod32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/counter_32.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod32' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/counter_32.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'register_shift_32' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/32bit_shift_register.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'register_shift_32' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/32bit_shift_register.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'add_64_test' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/adder_64_test.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'add_64_test' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/adder_64_test.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Booth_multiplier_32' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'mux_2_1__parameterized0' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_2_1.vhd:46]
+	Parameter bits bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_2_1__parameterized0' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/mux_2_1.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'adder_sub_64' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/adder_sub_64.vhd:11]
+INFO: [Synth 8-3491] module 'ripple_carry_64' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:4' bound to instance 'RA' of component 'ripple_carry_64' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/adder_sub_64.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'ripple_carry_64' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:11]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA0' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:23]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:26]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'ripple_carry_64' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'adder_sub_64' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/adder_sub_64.vhd:11]
+INFO: [Synth 8-638] synthesizing module 'registro__parameterized0' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/register_neurone.vhd:29]
+	Parameter bits bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'registro__parameterized0' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/register_neurone.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'ReLU__parameterized0' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ReLU.vhd:44]
+	Parameter bits bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ReLU__parameterized0' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ReLU.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000001000100011010000000000000000000000000000000000000000000000000001000101001100111001111111111111110111111100110001100000000000000000000000000000000000000000000000000000000000000001111111111111101111000110000111000000000000000101011011011100100 
+	Parameter bias bound to: 7'b0010111 
+INFO: [Synth 8-638] synthesizing module 'output_neuron__parameterized1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000001000100011010000000000000000000000000000000000000000000000000001000101001100111001111111111111110111111100110001100000000000000000000000000000000000000000000000000000000000000001111111111111101111000110000111000000000000000101011011011100100 
+	Parameter bias bound to: 7'b0010111 
+INFO: [Synth 8-638] synthesizing module 'ROM_output__parameterized0' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000001000100011010000000000000000000000000000000000000000000000000001000101001100111001111111111111110111111100110001100000000000000000000000000000000000000000000000000000000000000001111111111111101111000110000111000000000000000101011011011100100 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output__parameterized0' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron__parameterized1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111111101101010110000000000000000000000000000000000000111111111111111001010100001101100000000000000001101001000101000100000000000000000000000000000000000000000000000000000000000000001111111111111110100100100001000100000000000001001100111111011010 
+	Parameter bias bound to: 7'b0101001 
+INFO: [Synth 8-638] synthesizing module 'output_neuron__parameterized3' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111111101101010110000000000000000000000000000000000000111111111111111001010100001101100000000000000001101001000101000100000000000000000000000000000000000000000000000000000000000000001111111111111110100100100001000100000000000001001100111111011010 
+	Parameter bias bound to: 7'b0101001 
+INFO: [Synth 8-638] synthesizing module 'ROM_output__parameterized1' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111111101101010110000000000000000000000000000000000000111111111111111001010100001101100000000000000001101001000101000100000000000000000000000000000000000000000000000000000000000000001111111111111110100100100001000100000000000001001100111111011010 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output__parameterized1' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron__parameterized3' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000000111011000101000000000000000000000000000000000000000000000000010100000011010111101111111111111110001001010111001100000000000000000000000000000000000000000000000000000000000000001111111111111111001100010010101100000000000000001001110111101110 
+	Parameter bias bound to: 7'b0000100 
+INFO: [Synth 8-638] synthesizing module 'output_neuron__parameterized5' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000000111011000101000000000000000000000000000000000000000000000000010100000011010111101111111111111110001001010111001100000000000000000000000000000000000000000000000000000000000000001111111111111111001100010010101100000000000000001001110111101110 
+	Parameter bias bound to: 7'b0000100 
+INFO: [Synth 8-638] synthesizing module 'ROM_output__parameterized2' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000000111011000101000000000000000000000000000000000000000000000000010100000011010111101111111111111110001001010111001100000000000000000000000000000000000000000000000000000000000000001111111111111111001100010010101100000000000000001001110111101110 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output__parameterized2' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron__parameterized5' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000000111110001100000000000000000000000000000000000000111111111111101000110011010100100000000000000001010100101111011100000000000000000000000000000000000000000000000000000000000000001111111111111111001100010010101100000000000001010110110111001000 
+	Parameter bias bound to: 7'b1111100 
+INFO: [Synth 8-638] synthesizing module 'output_neuron__parameterized7' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000000111110001100000000000000000000000000000000000000111111111111101000110011010100100000000000000001010100101111011100000000000000000000000000000000000000000000000000000000000000001111111111111111001100010010101100000000000001010110110111001000 
+	Parameter bias bound to: 7'b1111100 
+INFO: [Synth 8-638] synthesizing module 'ROM_output__parameterized3' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000000111110001100000000000000000000000000000000000000111111111111101000110011010100100000000000000001010100101111011100000000000000000000000000000000000000000000000000000000000000001111111111111111001100010010101100000000000001010110110111001000 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output__parameterized3' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron__parameterized7' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000001111111011111000000000000000000000000000000000000000000000000001010100111011011101111111111111101111011110011011100000000000000000000000000000000000000000000000000000000000000001111111111111110010000101000010000000000000000001111110010110000 
+	Parameter bias bound to: 7'b0000100 
+INFO: [Synth 8-638] synthesizing module 'output_neuron__parameterized9' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000001111111011111000000000000000000000000000000000000000000000000001010100111011011101111111111111101111011110011011100000000000000000000000000000000000000000000000000000000000000001111111111111110010000101000010000000000000000001111110010110000 
+	Parameter bias bound to: 7'b0000100 
+INFO: [Synth 8-638] synthesizing module 'ROM_output__parameterized4' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000000000000000000001111111011111000000000000000000000000000000000000000000000000001010100111011011101111111111111101111011110011011100000000000000000000000000000000000000000000000000000000000000001111111111111110010000101000010000000000000000001111110010110000 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output__parameterized4' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron__parameterized9' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111111010111100101000000000000000000000000000000000000000000000000001011110010111011000000000000000001110011001111111000000000000000000000000000000000000000000000000000000000000000000000000000000010100011000101000111111111111110000111100101000010 
+	Parameter bias bound to: 7'b1110111 
+INFO: [Synth 8-638] synthesizing module 'output_neuron__parameterized11' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+	Parameter weights bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111111010111100101000000000000000000000000000000000000000000000000001011110010111011000000000000000001110011001111111000000000000000000000000000000000000000000000000000000000000000000000000000000010100011000101000111111111111110000111100101000010 
+	Parameter bias bound to: 7'b1110111 
+INFO: [Synth 8-638] synthesizing module 'ROM_output__parameterized5' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+	Parameter rom_generic bound to: 320'b00000000000000000000000000000000000000000000000000000000000000001111111111111111010111100101000000000000000000000000000000000000000000000000001011110010111011000000000000000001110011001111111000000000000000000000000000000000000000000000000000000000000000000000000000000010100011000101000111111111111110000111100101000010 
+INFO: [Synth 8-256] done synthesizing module 'ROM_output__parameterized5' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'output_neuron__parameterized11' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'output_layer' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/output_layer.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'rete_neurale' (0#1) [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/rete_neurale.vhd:58]
+WARNING: [Synth 8-3848] Net ov in module/entity add_64_test does not have driver. [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/adder_64_test.vhd:41]
+WARNING: [Synth 8-7129] Port ov in module add_64_test is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'uc_neurone_hidden'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'uc_neurone_output'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'control_unit_32'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                           000001 |                              000
+                read_rom |                           000010 |                              001
+                    mult |                           000100 |                              010
+                     add |                           001000 |                              011
+                add_bias |                           010000 |                              100
+                    fine |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'one-hot' in module 'uc_neurone_hidden'
+WARNING: [Synth 8-327] inferring latch for variable 'end_op_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/uc_neurone_hidden.vhd:83]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00001 |                              000
+                prelievo |                            00010 |                              001
+                  inizio |                            00100 |                              010
+              operazione |                            01000 |                              011
+                   shift |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'one-hot' in module 'control_unit'
+WARNING: [Synth 8-327] inferring latch for variable 'stop_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd:87]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:58]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                           000001 |                              000
+                read_rom |                           000010 |                              001
+                    mult |                           000100 |                              010
+                     add |                           001000 |                              011
+                add_bias |                           010000 |                              100
+                    fine |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'one-hot' in module 'uc_neurone_output'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'end_op_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd:76]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00001 |                              000
+                prelievo |                            00010 |                              001
+                  inizio |                            00100 |                              010
+              operazione |                            01000 |                              011
+                   shift |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'one-hot' in module 'control_unit_32'
+WARNING: [Synth 8-327] inferring latch for variable 'stop_reg' [D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd:87]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 7     
+	   2 Input    6 Bit       Adders := 7     
+	   2 Input    4 Bit       Adders := 27    
++---XORs : 
+	   2 Input      1 Bit         XORs := 2574  
++---Registers : 
+	               64 Bit    Registers := 7     
+	               32 Bit    Registers := 38    
+	                9 Bit    Registers := 40    
+	                6 Bit    Registers := 7     
+	                4 Bit    Registers := 27    
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 28    
+	   2 Input   32 Bit        Muxes := 58    
+	   3 Input   32 Bit        Muxes := 10    
+	  11 Input   32 Bit        Muxes := 7     
+	  10 Input    9 Bit        Muxes := 10    
+	   2 Input    9 Bit        Muxes := 30    
+	   6 Input    6 Bit        Muxes := 17    
+	   2 Input    6 Bit        Muxes := 51    
+	   5 Input    5 Bit        Muxes := 17    
+	   2 Input    5 Bit        Muxes := 34    
+	   6 Input    3 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 85    
+	   6 Input    1 Bit        Muxes := 116   
+	   5 Input    1 Bit        Muxes := 85    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:01:00 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:01:03 . Memory (MB): peak = 1274.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:01:07 . Memory (MB): peak = 1280.797 ; gain = 5.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:01:14 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:01:14 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    56|
+|3     |LUT1   |    24|
+|4     |LUT2   |   720|
+|5     |LUT3   |  1216|
+|6     |LUT4   |   489|
+|7     |LUT5   |   640|
+|8     |LUT6   |  2542|
+|9     |MUXF7  |   300|
+|10    |FDRE   |  2169|
+|11    |FDSE   |    62|
+|12    |LD     |    76|
+|13    |IBUF   |    84|
+|14    |OBUF   |   448|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------------+-------------------------------+------+
+|      |Instance                     |Module                         |Cells |
++------+-----------------------------+-------------------------------+------+
+|1     |top                          |                               |  8827|
+|2     |  layer_nascosto             |hidden_layer                   |  3002|
+|3     |    \neuroni0to9[0].neurone  |hidden_neuron                  |   261|
+|4     |      addizionatore          |adder_sub_32_192               |    44|
+|5     |      contatore              |counter_mod9_193               |    26|
+|6     |      controllo              |uc_neurone_hidden_194          |    15|
+|7     |      funz_attivazione       |ReLU_195                       |    31|
+|8     |      molticatore            |Booth_multiplier_196           |    77|
+|9     |        A                    |register_9_199                 |    18|
+|10    |        M                    |register_9_200                 |    16|
+|11    |        Q__0                 |register_9_201                 |     9|
+|12    |        contatore            |counter_mod9_202               |     7|
+|13    |        controllo            |control_unit_203               |    24|
+|14    |        q_meno1              |register_1_204                 |     3|
+|15    |      mux_input              |mux_16_1_197                   |    27|
+|16    |      pesi                   |ROM                            |     7|
+|17    |      registroo              |registro_198                   |    32|
+|18    |    \neuroni0to9[1].neurone  |hidden_neuron__parameterized1  |   261|
+|19    |      addizionatore          |adder_sub_32_179               |    44|
+|20    |      contatore              |counter_mod9_180               |    26|
+|21    |      controllo              |uc_neurone_hidden_181          |    15|
+|22    |      funz_attivazione       |ReLU_182                       |    31|
+|23    |      molticatore            |Booth_multiplier_183           |    77|
+|24    |        A                    |register_9_186                 |    18|
+|25    |        M                    |register_9_187                 |    16|
+|26    |        Q__0                 |register_9_188                 |     9|
+|27    |        contatore            |counter_mod9_189               |     7|
+|28    |        controllo            |control_unit_190               |    24|
+|29    |        q_meno1              |register_1_191                 |     3|
+|30    |      mux_input              |mux_16_1_184                   |    27|
+|31    |      pesi                   |ROM__parameterized0            |     7|
+|32    |      registroo              |registro_185                   |    32|
+|33    |    \neuroni0to9[2].neurone  |hidden_neuron__parameterized3  |   261|
+|34    |      addizionatore          |adder_sub_32_166               |    44|
+|35    |      contatore              |counter_mod9_167               |    26|
+|36    |      controllo              |uc_neurone_hidden_168          |    15|
+|37    |      funz_attivazione       |ReLU_169                       |    31|
+|38    |      molticatore            |Booth_multiplier_170           |    77|
+|39    |        A                    |register_9_173                 |    18|
+|40    |        M                    |register_9_174                 |    16|
+|41    |        Q__0                 |register_9_175                 |     9|
+|42    |        contatore            |counter_mod9_176               |     7|
+|43    |        controllo            |control_unit_177               |    24|
+|44    |        q_meno1              |register_1_178                 |     3|
+|45    |      mux_input              |mux_16_1_171                   |    27|
+|46    |      pesi                   |ROM__parameterized1            |     7|
+|47    |      registroo              |registro_172                   |    32|
+|48    |    \neuroni0to9[3].neurone  |hidden_neuron__parameterized5  |   268|
+|49    |      addizionatore          |adder_sub_32_153               |    44|
+|50    |      contatore              |counter_mod9_154               |    26|
+|51    |      controllo              |uc_neurone_hidden_155          |    15|
+|52    |      funz_attivazione       |ReLU_156                       |    31|
+|53    |      molticatore            |Booth_multiplier_157           |    77|
+|54    |        A                    |register_9_160                 |    18|
+|55    |        M                    |register_9_161                 |    16|
+|56    |        Q__0                 |register_9_162                 |     9|
+|57    |        contatore            |counter_mod9_163               |     7|
+|58    |        controllo            |control_unit_164               |    24|
+|59    |        q_meno1              |register_1_165                 |     3|
+|60    |      mux_input              |mux_16_1_158                   |    27|
+|61    |      pesi                   |ROM__parameterized2            |     7|
+|62    |      registroo              |registro_159                   |    39|
+|63    |    \neuroni0to9[4].neurone  |hidden_neuron__parameterized7  |   261|
+|64    |      addizionatore          |adder_sub_32_140               |    44|
+|65    |      contatore              |counter_mod9_141               |    26|
+|66    |      controllo              |uc_neurone_hidden_142          |    15|
+|67    |      funz_attivazione       |ReLU_143                       |    31|
+|68    |      molticatore            |Booth_multiplier_144           |    77|
+|69    |        A                    |register_9_147                 |    18|
+|70    |        M                    |register_9_148                 |    16|
+|71    |        Q__0                 |register_9_149                 |     9|
+|72    |        contatore            |counter_mod9_150               |     7|
+|73    |        controllo            |control_unit_151               |    24|
+|74    |        q_meno1              |register_1_152                 |     3|
+|75    |      mux_input              |mux_16_1_145                   |    27|
+|76    |      pesi                   |ROM__parameterized3            |     7|
+|77    |      registroo              |registro_146                   |    32|
+|78    |    \neuroni0to9[5].neurone  |hidden_neuron__parameterized9  |   263|
+|79    |      addizionatore          |adder_sub_32_127               |    44|
+|80    |      contatore              |counter_mod9_128               |    27|
+|81    |      controllo              |uc_neurone_hidden_129          |    15|
+|82    |      funz_attivazione       |ReLU_130                       |    31|
+|83    |      molticatore            |Booth_multiplier_131           |    77|
+|84    |        A                    |register_9_134                 |    18|
+|85    |        M                    |register_9_135                 |    16|
+|86    |        Q__0                 |register_9_136                 |     9|
+|87    |        contatore            |counter_mod9_137               |     7|
+|88    |        controllo            |control_unit_138               |    24|
+|89    |        q_meno1              |register_1_139                 |     3|
+|90    |      mux_input              |mux_16_1_132                   |    27|
+|91    |      pesi                   |ROM__parameterized4            |     8|
+|92    |      registroo              |registro_133                   |    32|
+|93    |    \neuroni0to9[6].neurone  |hidden_neuron__parameterized11 |   261|
+|94    |      addizionatore          |adder_sub_32_114               |    45|
+|95    |      contatore              |counter_mod9_115               |    25|
+|96    |      controllo              |uc_neurone_hidden_116          |    15|
+|97    |      funz_attivazione       |ReLU_117                       |    31|
+|98    |      molticatore            |Booth_multiplier_118           |    77|
+|99    |        A                    |register_9_121                 |    18|
+|100   |        M                    |register_9_122                 |    16|
+|101   |        Q__0                 |register_9_123                 |     9|
+|102   |        contatore            |counter_mod9_124               |     7|
+|103   |        controllo            |control_unit_125               |    24|
+|104   |        q_meno1              |register_1_126                 |     3|
+|105   |      mux_input              |mux_16_1_119                   |    27|
+|106   |      pesi                   |ROM__parameterized5            |     7|
+|107   |      registroo              |registro_120                   |    32|
+|108   |    \neuroni0to9[7].neurone  |hidden_neuron__parameterized13 |   261|
+|109   |      addizionatore          |adder_sub_32_102               |    45|
+|110   |      contatore              |counter_mod9_103               |    25|
+|111   |      controllo              |uc_neurone_hidden_104          |    15|
+|112   |      funz_attivazione       |ReLU                           |    31|
+|113   |      molticatore            |Booth_multiplier_105           |    77|
+|114   |        A                    |register_9_108                 |    18|
+|115   |        M                    |register_9_109                 |    16|
+|116   |        Q__0                 |register_9_110                 |     9|
+|117   |        contatore            |counter_mod9_111               |     7|
+|118   |        controllo            |control_unit_112               |    24|
+|119   |        q_meno1              |register_1_113                 |     3|
+|120   |      mux_input              |mux_16_1_106                   |    27|
+|121   |      pesi                   |ROM__parameterized6            |     7|
+|122   |      registroo              |registro_107                   |    32|
+|123   |    \neuroni0to9[8].neurone  |hidden_neuron__parameterized15 |   673|
+|124   |      addizionatore          |adder_sub_32_90                |    45|
+|125   |      contatore              |counter_mod9_91                |    25|
+|126   |      controllo              |uc_neurone_hidden_92           |    31|
+|127   |      molticatore            |Booth_multiplier_93            |    77|
+|128   |        A                    |register_9_96                  |    18|
+|129   |        M                    |register_9_97                  |    16|
+|130   |        Q__0                 |register_9_98                  |     9|
+|131   |        contatore            |counter_mod9_99                |     7|
+|132   |        controllo            |control_unit_100               |    24|
+|133   |        q_meno1              |register_1_101                 |     3|
+|134   |      mux_input              |mux_16_1_94                    |    27|
+|135   |      pesi                   |ROM__parameterized7            |     7|
+|136   |      registroo              |registro_95                    |   459|
+|137   |    \neuroni0to9[9].neurone  |hidden_neuron__parameterized17 |   232|
+|138   |      pesi                   |ROM__parameterized8            |     8|
+|139   |      addizionatore          |adder_sub_32                   |    44|
+|140   |      contatore              |counter_mod9                   |    27|
+|141   |      controllo              |uc_neurone_hidden              |    15|
+|142   |      molticatore            |Booth_multiplier               |    77|
+|143   |        A                    |register_9                     |    18|
+|144   |        M                    |register_9_86                  |    16|
+|145   |        Q__0                 |register_9_87                  |     9|
+|146   |        contatore            |counter_mod9_88                |     7|
+|147   |        controllo            |control_unit                   |    24|
+|148   |        q_meno1              |register_1_89                  |     3|
+|149   |      mux_input              |mux_16_1                       |    27|
+|150   |      registroo              |registro                       |    32|
+|151   |  layer_output               |output_layer                   |  5292|
+|152   |    \neuroni0to6[0].neurone  |output_neuron                  |   751|
+|153   |      addizionatore          |adder_sub_64_72                |   132|
+|154   |      contatore              |counter_mod10_73               |    35|
+|155   |      controllo              |uc_neurone_output_74           |    19|
+|156   |      molticatore            |Booth_multiplier_32_75         |   239|
+|157   |        A                    |register_shift_32_80           |   109|
+|158   |        M                    |register_shift_32_81           |    31|
+|159   |        Q__0                 |register_shift_32_82           |    41|
+|160   |        contatore            |counter_mod32_83               |    13|
+|161   |        controllo            |control_unit_32_84             |    44|
+|162   |        q_meno1              |register_1_85                  |     1|
+|163   |      mux_adder              |mux_2_1__parameterized0_76     |    46|
+|164   |      mux_bias               |mux_2_1__parameterized0_77     |    44|
+|165   |      mux_input              |mux_16_1_output_78             |    94|
+|166   |      pesi                   |ROM_output                     |    13|
+|167   |      registroo              |registro__parameterized0_79    |   129|
+|168   |    \neuroni0to6[1].neurone  |output_neuron__parameterized1  |   755|
+|169   |      addizionatore          |adder_sub_64_58                |   135|
+|170   |      contatore              |counter_mod10_59               |    36|
+|171   |      controllo              |uc_neurone_output_60           |    19|
+|172   |      molticatore            |Booth_multiplier_32_61         |   238|
+|173   |        A                    |register_shift_32_66           |   109|
+|174   |        M                    |register_shift_32_67           |    31|
+|175   |        Q__0                 |register_shift_32_68           |    37|
+|176   |        contatore            |counter_mod32_69               |    13|
+|177   |        controllo            |control_unit_32_70             |    47|
+|178   |        q_meno1              |register_1_71                  |     1|
+|179   |      mux_adder              |mux_2_1__parameterized0_62     |    46|
+|180   |      mux_bias               |mux_2_1__parameterized0_63     |    45|
+|181   |      mux_input              |mux_16_1_output_64             |    94|
+|182   |      pesi                   |ROM_output__parameterized0     |    14|
+|183   |      registroo              |registro__parameterized0_65    |   128|
+|184   |    \neuroni0to6[2].neurone  |output_neuron__parameterized3  |   755|
+|185   |      addizionatore          |adder_sub_64_44                |   133|
+|186   |      contatore              |counter_mod10_45               |    36|
+|187   |      controllo              |uc_neurone_output_46           |    20|
+|188   |      molticatore            |Booth_multiplier_32_47         |   239|
+|189   |        A                    |register_shift_32_52           |   109|
+|190   |        M                    |register_shift_32_53           |    31|
+|191   |        Q__0                 |register_shift_32_54           |    38|
+|192   |        contatore            |counter_mod32_55               |    13|
+|193   |        controllo            |control_unit_32_56             |    47|
+|194   |        q_meno1              |register_1_57                  |     1|
+|195   |      mux_adder              |mux_2_1__parameterized0_48     |    46|
+|196   |      mux_bias               |mux_2_1__parameterized0_49     |    44|
+|197   |      mux_input              |mux_16_1_output_50             |    94|
+|198   |      pesi                   |ROM_output__parameterized1     |    14|
+|199   |      registroo              |registro__parameterized0_51    |   129|
+|200   |    \neuroni0to6[3].neurone  |output_neuron__parameterized5  |   757|
+|201   |      addizionatore          |adder_sub_64_30                |   132|
+|202   |      contatore              |counter_mod10_31               |    38|
+|203   |      controllo              |uc_neurone_output_32           |    19|
+|204   |      molticatore            |Booth_multiplier_32_33         |   239|
+|205   |        A                    |register_shift_32_38           |   109|
+|206   |        M                    |register_shift_32_39           |    31|
+|207   |        Q__0                 |register_shift_32_40           |    38|
+|208   |        contatore            |counter_mod32_41               |    13|
+|209   |        controllo            |control_unit_32_42             |    47|
+|210   |        q_meno1              |register_1_43                  |     1|
+|211   |      mux_adder              |mux_2_1__parameterized0_34     |    46|
+|212   |      mux_bias               |mux_2_1__parameterized0_35     |    45|
+|213   |      mux_input              |mux_16_1_output_36             |    94|
+|214   |      pesi                   |ROM_output__parameterized2     |    16|
+|215   |      registroo              |registro__parameterized0_37    |   128|
+|216   |    \neuroni0to6[4].neurone  |output_neuron__parameterized7  |   758|
+|217   |      addizionatore          |adder_sub_64_17                |   155|
+|218   |      contatore              |counter_mod10_18               |    28|
+|219   |      controllo              |uc_neurone_output_19           |    19|
+|220   |      molticatore            |Booth_multiplier_32_20         |   228|
+|221   |        A                    |register_shift_32_24           |   104|
+|222   |        M                    |register_shift_32_25           |    31|
+|223   |        Q__0                 |register_shift_32_26           |    32|
+|224   |        contatore            |counter_mod32_27               |    13|
+|225   |        controllo            |control_unit_32_28             |    47|
+|226   |        q_meno1              |register_1_29                  |     1|
+|227   |      mux_adder              |mux_2_1__parameterized0_21     |    46|
+|228   |      mux_input              |mux_16_1_output_22             |    94|
+|229   |      pesi                   |ROM_output__parameterized3     |    15|
+|230   |      registroo              |registro__parameterized0_23    |   173|
+|231   |    \neuroni0to6[5].neurone  |output_neuron__parameterized9  |   755|
+|232   |      addizionatore          |adder_sub_64_3                 |   132|
+|233   |      contatore              |counter_mod10_4                |    37|
+|234   |      controllo              |uc_neurone_output_5            |    20|
+|235   |      molticatore            |Booth_multiplier_32_6          |   239|
+|236   |        A                    |register_shift_32_11           |   109|
+|237   |        M                    |register_shift_32_12           |    31|
+|238   |        Q__0                 |register_shift_32_13           |    38|
+|239   |        contatore            |counter_mod32_14               |    13|
+|240   |        controllo            |control_unit_32_15             |    47|
+|241   |        q_meno1              |register_1_16                  |     1|
+|242   |      mux_adder              |mux_2_1__parameterized0_7      |    46|
+|243   |      mux_bias               |mux_2_1__parameterized0_8      |    45|
+|244   |      mux_input              |mux_16_1_output_9              |    94|
+|245   |      pesi                   |ROM_output__parameterized4     |    14|
+|246   |      registroo              |registro__parameterized0_10    |   128|
+|247   |    \neuroni0to6[6].neurone  |output_neuron__parameterized11 |   761|
+|248   |      addizionatore          |adder_sub_64                   |   156|
+|249   |      contatore              |counter_mod10                  |    29|
+|250   |      controllo              |uc_neurone_output              |    19|
+|251   |      molticatore            |Booth_multiplier_32            |   228|
+|252   |        A                    |register_shift_32              |   104|
+|253   |        M                    |register_shift_32_1            |    31|
+|254   |        Q__0                 |register_shift_32_2            |    32|
+|255   |        contatore            |counter_mod32                  |    13|
+|256   |        controllo            |control_unit_32                |    47|
+|257   |        q_meno1              |register_1                     |     1|
+|258   |      mux_adder              |mux_2_1__parameterized0        |    46|
+|259   |      mux_bias               |mux_2_1__parameterized0_0      |     1|
+|260   |      mux_input              |mux_16_1_output                |    94|
+|261   |      pesi                   |ROM_output__parameterized5     |    16|
+|262   |      registroo              |registro__parameterized0       |   172|
++------+-----------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1288.508 ; gain = 13.570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.284 . Memory (MB): peak = 1300.566 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 432 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1305.254 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 76 instances were transformed.
+  LD => LDCE: 76 instances
+
+Synth Design complete, checksum: 8fcd102d
+INFO: [Common 17-83] Releasing license: Synthesis
+252 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:01:21 . Memory (MB): peak = 1305.254 ; gain = 30.316
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1/rete_neurale.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rete_neurale_utilization_synth.rpt -pb rete_neurale_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  2 15:21:35 2023...

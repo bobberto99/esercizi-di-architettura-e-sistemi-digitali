@@ -1,0 +1,363 @@
+
+*** Running vivado
+    with args -log comunicazione_seriale.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source comunicazione_seriale.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source comunicazione_seriale.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/bobbo/Desktop/esercizio_9/esercizio_9.srcs/utils_1/imports/synth_1/trasmettitore.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/bobbo/Desktop/esercizio_9/esercizio_9.srcs/utils_1/imports/synth_1/trasmettitore.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top comunicazione_seriale -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17096
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1279.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'comunicazione_seriale' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/comunicazione_seriale.vhd:44]
+INFO: [Synth 8-3491] module 'trasmettitore' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/trasmettitore.vhd:34' bound to instance 'trasm' of component 'trasmettitore' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/comunicazione_seriale.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'trasmettitore' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/trasmettitore.vhd:43]
+INFO: [Synth 8-3491] module 'UARTcomponent' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/RS232RefComp2.vhd:60' bound to instance 'UART' of component 'UARTcomponent' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/trasmettitore.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'UARTcomponent' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/RS232RefComp2.vhd:87]
+	Parameter BAUD_DIVIDE_G bound to: 14 - type: integer 
+	Parameter BAUD_RATE_G bound to: 231 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'UARTcomponent' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/RS232RefComp2.vhd:87]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/control_unit.vhd:34' bound to instance 'controllo' of component 'control_unit' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/trasmettitore.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/control_unit.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/control_unit.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'trasmettitore' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/trasmettitore.vhd:43]
+INFO: [Synth 8-3491] module 'ricevitore' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/Receiver.vhd:34' bound to instance 'ricev' of component 'ricevitore' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/comunicazione_seriale.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'ricevitore' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/Receiver.vhd:43]
+INFO: [Synth 8-3491] module 'UARTcomponent' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/RS232RefComp2.vhd:60' bound to instance 'UART_R' of component 'UARTcomponent' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/Receiver.vhd:90]
+INFO: [Synth 8-3491] module 'cu_ricevitore' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/uc_receiver.vhd:34' bound to instance 'cu' of component 'cu_ricevitore' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/Receiver.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'cu_ricevitore' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/uc_receiver.vhd:44]
+WARNING: [Synth 8-614] signal 'UART_OUTPUT' is read in the process but is not in the sensitivity list [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/uc_receiver.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'cu_ricevitore' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/uc_receiver.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ricevitore' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/Receiver.vhd:43]
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/ButtonDebouncer.vhd:34' bound to instance 'wr_clearer' of component 'ButtonDebouncer' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/comunicazione_seriale.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'ButtonDebouncer' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/ButtonDebouncer.vhd:45]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/ButtonDebouncer.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'ButtonDebouncer' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/ButtonDebouncer.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'comunicazione_seriale' (0#1) [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/comunicazione_seriale.vhd:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1279.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1279.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1279.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1279.637 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/constrs_1/new/scheda.xdc]
+Finished Parsing XDC File [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/constrs_1/new/scheda.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/constrs_1/new/scheda.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/comunicazione_seriale_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/comunicazione_seriale_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1321.836 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1321.836 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/bobbo/Desktop/esercizio_9/esercizio_9.srcs/utils_1/imports/synth_1/trasmettitore.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'strCur_reg' in module 'UARTcomponent'
+INFO: [Synth 8-802] inferred FSM for state register 'sttCur_reg' in module 'UARTcomponent'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'curr_state_reg' in module 'cu_ricevitore'
+INFO: [Synth 8-802] inferred FSM for state register 'btn_state_reg' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sttidle |                            00001 |                              000
+             stttransfer |                            00010 |                              001
+                sttdelay |                            00100 |                              011
+                sttshift |                            01000 |                              010
+            sttwaitwrite |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sttCur_reg' using encoding 'one-hot' in module 'UARTcomponent'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 stridle |                           000001 |                              000
+           streightdelay |                           000010 |                              001
+             strwaitfor0 |                           000100 |                              011
+            strcheckstop |                           001000 |                              101
+             strwaitfor1 |                           010000 |                              100
+              strgetdata |                           100000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'strCur_reg' using encoding 'one-hot' in module 'UARTcomponent'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/control_unit.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/control_unit.vhd:58]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+    inizio_comunicazione |                              010 |                               01
+      fine_comunicazione |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'one-hot' in module 'control_unit'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/control_unit.vhd:58]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             reset_state |                               00 |                               00
+             attesa_dati |                               01 |                               01
+            lettura_dati |                               10 |                               10
+        conferma_lettura |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'curr_state_reg' using encoding 'sequential' in module 'cu_ricevitore'
+WARNING: [Synth 8-327] inferring latch for variable 'leds_temp_reg' [C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.srcs/sources_1/new/uc_receiver.vhd:62]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             non_premuto |                               00 |                               00
+     controllo_pressione |                               01 |                               01
+                 premuto |                               10 |                               10
+      controllo_rilascio |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'btn_state_reg' using encoding 'sequential' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 6     
++---XORs : 
+	   8 Input      1 Bit         XORs := 2     
+	   9 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 6     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 10    
+	   5 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 8     
+	   6 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (trasm/UART/FSM_onehot_strCur_reg[5]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (trasm/UART/FSM_onehot_strCur_reg[4]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (trasm/UART/FSM_onehot_strCur_reg[3]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (trasm/UART/FSM_onehot_strCur_reg[2]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (trasm/UART/FSM_onehot_strCur_reg[1]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (trasm/UART/FSM_onehot_strCur_reg[0]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (ricev/UART_R/FSM_onehot_sttCur_reg[4]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (ricev/UART_R/FSM_onehot_sttCur_reg[3]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (ricev/UART_R/FSM_onehot_sttCur_reg[2]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (ricev/UART_R/FSM_onehot_sttCur_reg[1]) is unused and will be removed from module comunicazione_seriale.
+WARNING: [Synth 8-3332] Sequential element (ricev/UART_R/FSM_onehot_sttCur_reg[0]) is unused and will be removed from module comunicazione_seriale.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     8|
+|4     |LUT2   |    21|
+|5     |LUT3   |    39|
+|6     |LUT4   |    32|
+|7     |LUT5   |     9|
+|8     |LUT6   |    13|
+|9     |FDCE   |     4|
+|10    |FDRE   |   120|
+|11    |FDSE   |     3|
+|12    |LD     |    11|
+|13    |IBUF   |    11|
+|14    |OBUF   |    11|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1321.836 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1321.836 ; gain = 42.199
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1321.836 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 8 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1321.836 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  LD => LDCE: 3 instances
+  LD => LDCE (inverted pins: G): 8 instances
+
+Synth Design complete, checksum: c89aaaa1
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 17 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1321.836 ; gain = 42.199
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.runs/synth_1/comunicazione_seriale.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file comunicazione_seriale_utilization_synth.rpt -pb comunicazione_seriale_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  2 10:29:18 2023...

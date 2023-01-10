@@ -1,0 +1,43 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot HS_omega_network_TB_behav xil_defaultlib.HS_omega_network_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.type_package
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="000")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="001")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="010")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="011")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="100")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="101")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="110")\]
+Compiling architecture behavioral of entity xil_defaultlib.sender_node [\sender_node(address="111")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="000")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="001")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="010")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="011")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="100")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="101")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="110")\]
+Compiling architecture behavioral of entity xil_defaultlib.receiver_node [\receiver_node(address="111")\]
+Compiling architecture behavioral of entity xil_defaultlib.uc_switch [uc_switch_default]
+Compiling architecture dataflow of entity xil_defaultlib.mux_2_1 [mux_2_1_default]
+Compiling architecture dataflow of entity xil_defaultlib.demux_1_2 [demux_1_2_default]
+Compiling architecture behavioural of entity xil_defaultlib.register_9 [register_9_default]
+Compiling architecture structural of entity xil_defaultlib.smart_switch_2_2 [smart_switch_2_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc_switch [\uc_switch(level=1)\]
+Compiling architecture structural of entity xil_defaultlib.smart_switch_2_2 [\smart_switch_2_2(level=1)\]
+Compiling architecture behavioral of entity xil_defaultlib.uc_switch [\uc_switch(level=2)\]
+Compiling architecture structural of entity xil_defaultlib.smart_switch_2_2 [\smart_switch_2_2(level=2)\]
+Compiling architecture structural of entity xil_defaultlib.smart_omega_network [smart_omega_network_default]
+Compiling architecture structural of entity xil_defaultlib.HS_omega_network [hs_omega_network_default]
+Compiling architecture behavioral of entity xil_defaultlib.hs_omega_network_tb
+Built simulation snapshot HS_omega_network_TB_behav

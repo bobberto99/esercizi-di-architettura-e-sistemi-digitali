@@ -1,0 +1,40 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/1bit_register.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/32bit_shift_register.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/9bit_register.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/control_unit.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/counter_9.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/adder_sub.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/Booth_multiplier.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/control_unit_32b.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/counter_32.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/adder_64_test.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/mult/Booth_multiplier_32.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/type_package.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/ROM.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/type_package_output.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/ROM_output.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/ReLU.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/adder_sub_32.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/adder_sub_64.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/counter_10.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/full_adder.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/hidden_layer.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/uc_neurone_hidden.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/mux_16_1.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/mux_2_1.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/register_neurone.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/hidden_neuron.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/mux_16_1_output.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/output_layer.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/uc_neurone_output.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/output_neuron.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/rete_neurale.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/hidden/mult/ripple_carry.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/ripple_carry_32.vhd" \
+"../../../../12_rete_neurale.srcs/sources_1/new/neuroni/output/ripple_carry_64.vhd" \
+"../../../../12_rete_neurale.srcs/sim_1/new/sim_rete_neurale.vhd" \
+
+# Do not sort compile order
+nosort

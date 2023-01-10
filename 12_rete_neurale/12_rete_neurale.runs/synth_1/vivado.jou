@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jan  2 15:20:01 2023
+# Process ID: 11780
+# Current directory: D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1
+# Command line: vivado.exe -log rete_neurale.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rete_neurale.tcl
+# Log file: D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1/rete_neurale.vds
+# Journal file: D:/Xilinx/Progetti_Xilinx/12_rete_neurale/12_rete_neurale.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1RVA572, OS: Windows, CPU Frequency: 3312 MHz, CPU Physical cores: 4, Host memory: 17124 MB
+#-----------------------------------------------------------
+source rete_neurale.tcl -notrace

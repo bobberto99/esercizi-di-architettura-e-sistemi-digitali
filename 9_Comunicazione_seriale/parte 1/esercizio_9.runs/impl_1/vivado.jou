@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jan  2 10:29:25 2023
+# Process ID: 19240
+# Current directory: C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.runs/impl_1
+# Command line: vivado.exe -log comunicazione_seriale.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source comunicazione_seriale.tcl -notrace
+# Log file: C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.runs/impl_1/comunicazione_seriale.vdi
+# Journal file: C:/Users/bobbo/Desktop/roba tesina/esercizio_9/parte 1/esercizio_9.runs/impl_1\vivado.jou
+# Running On: DESKTOP-IR34L4A, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 12, Host memory: 17101 MB
+#-----------------------------------------------------------
+source comunicazione_seriale.tcl -notrace

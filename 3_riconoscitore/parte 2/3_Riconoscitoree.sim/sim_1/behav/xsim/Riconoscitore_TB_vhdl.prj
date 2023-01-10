@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../3_Riconoscitoree.srcs/sources_1/new/Divisore_freq.vhd" \
+"../../../../3_Riconoscitoree.srcs/sources_1/new/Riconoscitore_2modi.vhd" \
+"../../../../3_Riconoscitoree.srcs/sources_1/new/Riconoscitore_su_board.vhd" \
+"../../../../3_Riconoscitoree.srcs/sources_1/new/automa_debouncer.vhd" \
+"../../../../3_Riconoscitoree.srcs/sim_1/new/Riconoscitore_TB.vhd" \
+
+# Do not sort compile order
+nosort

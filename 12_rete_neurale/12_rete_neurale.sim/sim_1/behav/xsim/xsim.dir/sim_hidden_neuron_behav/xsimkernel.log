@@ -1,0 +1,7 @@
+Running: xsim.dir/sim_hidden_neuron_behav/xsimk.exe -simmode gui -wdb sim_hidden_neuron_behav.wdb -simrunnum 0 -socket 1659
+Design successfully loaded
+Design Loading Memory Usage: 7252 KB (Peak: 7252 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 15812 KB (Peak: 15812 KB)
+Simulation CPU Usage: 124 ms
