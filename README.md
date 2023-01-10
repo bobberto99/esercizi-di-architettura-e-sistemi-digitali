@@ -5,5 +5,5 @@ ogni singola punto di un esercizio (ad esempio un esercizio ha 3 punti, la soluz
 etc...).
 
 Gli esercizi sono stati svolti dagli studenti:
-Roberto Vallefuoco
-Michele Savella
+Roberto Vallefuoco,
+Michele Savella.
